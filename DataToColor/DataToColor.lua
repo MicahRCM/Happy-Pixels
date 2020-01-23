@@ -183,8 +183,10 @@ function fixedDecimalToColor(f)
     elseif f < 0 then
         return {0}
     end
-    
+    -- "%f" denotes formatting a string as floating point decimal
+    -- The number (.5 in this case) is used to denote the number of decimal places
     local f6 = tonumber(string.format("%.5f", 1))
+    -- Makes number an integer so it can be encoded
     local i = math.floor(f * 100000)
     return integerToColor(i)
 end
@@ -192,6 +194,7 @@ end
 -- Pass in a string to get the upper case ASCII values. Converts any special character with ASCII values below 100
 function DataToColor:StringToASCIIHex(str)
     -- Converts string to upper case so only 2 digit ASCII values
+    -- All lowercase letters have a decimal ASCII value >100, so we only uppercase numbers which are a mere 2 digits long.
     str = string.sub(string.upper(str), 0, 6)
     -- Sets string to an empty string
     local ASCII = ''
