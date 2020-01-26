@@ -1,0 +1,5599 @@
+[
+{
+    "xInt": 4.3293,
+    "yInt": 6.879999999999999,
+    "nodeName": 0,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2065,
+    "yInt": 6.8401,
+    "nodeName": 1,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "GORNEK"
+},
+{
+    "xInt": 4.2427,
+    "yInt": 6.8432,
+    "nodeName": 2,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.3924,
+    "yInt": 6.6627,
+    "nodeName": 3,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "MOTTLED BOAR START"
+},
+{
+    "xInt": 4.2502,
+    "yInt": 6.904400000000001,
+    "nodeName": 4,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Mage Trainer"],
+    "name": "MAI'AH"
+},
+{
+    "xInt": 4.265499999999999,
+    "yInt": 6.7194,
+    "nodeName": 5,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Vendor"],
+    "name": "ZLAGK"
+},
+{
+    "xInt": 4.1864,
+    "yInt": 6.4549,
+    "nodeName": 6,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "SCORPID WORKER START"
+},
+{
+    "xInt": 5.2073,
+    "yInt": 6.8288,
+    "nodeName": 7,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "UKOR"
+},
+{
+    "xInt": 5.348699999999999,
+    "yInt": 4.4498999999999995,
+    "nodeName": 8,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Spirit Healer"],
+    "name": "RAZORHILL_SPIRIT"
+},
+{
+    "xInt": 5.2549,
+    "yInt": 4.265,
+    "nodeName": 9,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7317,
+    "yInt": 1.7954999999999999,
+    "nodeName": 10,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.5542,
+    "yInt": 1.2157,
+    "nodeName": 11,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.7273,
+    "yInt": 7.3314,
+    "nodeName": 12,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.072299999999999,
+    "yInt": 3.2559,
+    "nodeName": 13,
+    "createdReason": "StartPath_Node",
+    "zone": "THE BA",
+    "tags": ["Spirit Healer"],
+    "name": "CROSSROADS_SPIRIT"
+},
+{
+    "xInt": 5.2139999999999995,
+    "yInt": 3.0581000000000005,
+    "nodeName": 14,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.53,
+    "yInt": 6.1008,
+    "nodeName": 15,
+    "createdReason": "StartPath_Node",
+    "zone": "THE BA",
+    "tags": ["Spirit Healer"],
+    "name": "CAMP_TAURAJO_SPIRIT"
+},
+{
+    "xInt": 4.5291999999999994,
+    "yInt": 5.8669,
+    "nodeName": 16,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4133,
+    "yInt": 6.9304,
+    "nodeName": 17,
+    "createdReason": "StartPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Spirit Healer"],
+    "name": "VALLEY_SPIRIT"
+},
+{
+    "xInt": 4.3232,
+    "yInt": 6.8432,
+    "nodeName": 18,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "KALTUNK"
+},
+{
+    "xInt": 5.152299999999999,
+    "yInt": 4.1674,
+    "nodeName": 19,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Vendor", "Innkeeper", "RAZOR HILL"],
+    "name": "INNKEEPER GROSK"
+},
+{
+    "xInt": 5.1732,
+    "yInt": 7.6204,
+    "nodeName": 20,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.287700000000001,
+    "yInt": 4.5179,
+    "nodeName": 21,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Vendor"],
+    "name": "TAMAR"
+},
+{
+    "xInt": 5.226699999999999,
+    "yInt": 4.4992,
+    "nodeName": 22,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "DIRE BOAR SCORPID START"
+},
+{
+    "xInt": 5.300000000000001,
+    "yInt": 4.1064,
+    "nodeName": 23,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "GHRAWT"
+},
+{
+    "xInt": 4.3102,
+    "yInt": 3.0268,
+    "nodeName": 24,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "MISHA TOR'KREN"
+},
+{
+    "xInt": 4.6642,
+    "yInt": 1.7207,
+    "nodeName": 25,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.620699999999999,
+    "yInt": 7.3243,
+    "nodeName": 26,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "MORGUM"
+},
+{
+    "xInt": 5.0866,
+    "yInt": 4.3598,
+    "nodeName": 27,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "TAKRIN PATHSEEKER"
+},
+{
+    "xInt": 6.2263,
+    "yInt": 1.9377,
+    "nodeName": 28,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": "KARGAL BATTLESCAR"
+},
+{
+    "xInt": 3.489,
+    "yInt": 4.2269000000000005,
+    "nodeName": 29,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2231000000000005,
+    "yInt": 3.0967000000000002,
+    "nodeName": 30,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": "SERGRA DARKTHORN"
+},
+{
+    "xInt": 5.1935,
+    "yInt": 3.0348,
+    "nodeName": 31,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": "GAZROG"
+},
+{
+    "xInt": 5.1988,
+    "yInt": 2.9911,
+    "nodeName": 32,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Vendor", "Innkeeper", "THE CROSSROADS"],
+    "name": "INNKEEPER BOORAND PLAINSWIND"
+},
+{
+    "xInt": 5.2608999999999995,
+    "yInt": 2.9857,
+    "nodeName": 33,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Vendor"],
+    "name": "ZARGH"
+},
+{
+    "xInt": 5.152,
+    "yInt": 3.0353999999999997,
+    "nodeName": 34,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Flight Master"],
+    "name": "DEVRAK"
+},
+{
+    "xInt": 4.5342,
+    "yInt": 6.378399999999999,
+    "nodeName": 35,
+    "createdReason": "StartPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Flight Master"],
+    "name": "DORAS"
+},
+{
+    "xInt": 3.8758999999999997,
+    "yInt": 8.551499999999999,
+    "nodeName": 36,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Mage Trainer"],
+    "name": "ENYO"
+},
+{
+    "xInt": 6.3201,
+    "yInt": 4.5394000000000005,
+    "nodeName": 37,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Skinning Trainer"],
+    "name": "THUWD"
+},
+{
+    "xInt": 5.1690000000000005,
+    "yInt": 7.5455000000000005,
+    "nodeName": 38,
+    "createdReason": "StartPath_Node",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.4089,
+    "yInt": 6.852,
+    "nodeName": 39,
+    "createdReason": "EndPath_Node",
+    "zone": "ORGRIM",
+    "tags": ["Vendor", "Innkeeper", "ORGRIMMAR"],
+    "name": "INNKEEPER GRYSHKA"
+},
+{
+    "xInt": 4.6299,
+    "yInt": 1.7932000000000001,
+    "nodeName": 40,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": "ELDER MOTTLED BOAR GRIND"
+},
+{
+    "xInt": 4.4061,
+    "yInt": 6.6228,
+    "nodeName": 41,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.1724,
+    "yInt": 6.4121,
+    "nodeName": 42,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2477,
+    "yInt": 4.475,
+    "nodeName": 43,
+    "createdReason": "EndPath_Node",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2308,
+    "yInt": 3.2836,
+    "nodeName": 44,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": "GREATER PLAINSTRIDER START"
+},
+{
+    "xInt": 5.1993,
+    "yInt": 3.1683,
+    "nodeName": 45,
+    "createdReason": "StartPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4444,
+    "yInt": 5.914000000000001,
+    "nodeName": 46,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Flight Master"],
+    "name": "OMUSA THUNDERHORN"
+},
+{
+    "xInt": 4.5065,
+    "yInt": 5.9079999999999995,
+    "nodeName": 47,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Skinning Trainer", "Vendor", "Item Repair"],
+    "name": "DRANH"
+},
+{
+    "xInt": 5.2244,
+    "yInt": 3.1857999999999995,
+    "nodeName": 48,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "HALIJA WHITESTRIDER"
+},
+{
+    "xInt": 3.2229,
+    "yInt": 2.379,
+    "nodeName": 49,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": "TOP OF GREAT LIFT"
+},
+{
+    "xInt": 6.868499999999999,
+    "yInt": 5.3293,
+    "nodeName": 50,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.901000000000001,
+    "yInt": 5.7421999999999995,
+    "nodeName": 51,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.056,
+    "yInt": 2.3018,
+    "nodeName": 52,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": ["Spirit Healer"],
+    "name": "THEGREATLIFT_SPIRIT"
+},
+{
+    "xInt": 3.227,
+    "yInt": 2.4184,
+    "nodeName": 53,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.6722,
+    "yInt": 4.8083,
+    "nodeName": 54,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": "BOTTOM OF FREEWIND POST LIFT"
+},
+{
+    "xInt": 4.6612,
+    "yInt": 4.8378,
+    "nodeName": 55,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": "TOP OF FREEWIND POST LIFT"
+},
+{
+    "xInt": 4.5133,
+    "yInt": 4.908799999999999,
+    "nodeName": 56,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": ["Flight Master"],
+    "name": "NYSE"
+},
+{
+    "xInt": 4.4896,
+    "yInt": 5.0679,
+    "nodeName": 57,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "STARN"
+},
+{
+    "xInt": 4.6046,
+    "yInt": 5.142099999999999,
+    "nodeName": 58,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": ["Vendor", "Innkeeper", "FREEWIND POST"],
+    "name": "INNKEEPER ABEQWA"
+},
+{
+    "xInt": 4.5763,
+    "yInt": 4.9559999999999995,
+    "nodeName": 59,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7751,
+    "yInt": 4.9114,
+    "nodeName": 60,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7406,
+    "yInt": 4.774900000000001,
+    "nodeName": 61,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.6805,
+    "yInt": 4.7238999999999995,
+    "nodeName": 62,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7775,
+    "yInt": 4.8804,
+    "nodeName": 63,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7941,
+    "yInt": 7.8416,
+    "nodeName": 64,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": "MIRAGE RACEWAY"
+},
+{
+    "xInt": 8.042,
+    "yInt": 7.7006,
+    "nodeName": 65,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "SYNGE"
+},
+{
+    "xInt": 7.8647,
+    "yInt": 7.8057,
+    "nodeName": 66,
+    "createdReason": "EndPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.5227999999999997,
+    "yInt": 2.7495000000000003,
+    "nodeName": 67,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.2945,
+    "yInt": 9.7077,
+    "nodeName": 68,
+    "createdReason": "EndPath_Node",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.6605,
+    "yInt": 6.058599999999999,
+    "nodeName": 69,
+    "createdReason": "EndPath_Node",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.5128,
+    "yInt": 5.9868,
+    "nodeName": 70,
+    "createdReason": "EndPath_Node",
+    "zone": "STONET",
+    "tags": ["Flight Master"],
+    "name": "THARM"
+},
+{
+    "xInt": 5.312900000000001,
+    "yInt": 5.905,
+    "nodeName": 71,
+    "createdReason": "StartPath_Node",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.4021,
+    "yInt": 0.34590000000000004,
+    "nodeName": 72,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5324992779467315,
+    "yInt": 7.051847770649334,
+    "nodeName": 73,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.1589,
+    "yInt": 7.4123,
+    "nodeName": 74,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": ["Flight Master"],
+    "name": "THALON"
+},
+{
+    "xInt": 2.5811,
+    "yInt": 7.1046,
+    "nodeName": 75,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": ["Vendor, Item Repair"],
+    "name": "HAE'WILANI"
+},
+{
+    "xInt": 2.4098,
+    "yInt": 6.8213,
+    "nodeName": 76,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": ["Vendor", "Innkeeper", "SHADOWPREY VILLAGE"],
+    "name": "INNKEEPER SIKEWA"
+},
+{
+    "xInt": 2.647,
+    "yInt": 7.5053,
+    "nodeName": 77,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.0027,
+    "yInt": 7.0289,
+    "nodeName": 78,
+    "createdReason": "StartPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": "KODO GRAVEYARD GRIND START"
+},
+{
+    "xInt": 5.0962,
+    "yInt": 2.8852,
+    "nodeName": 79,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": "TANARIS SOUTH GRIND AND EAST COAST GRIND START"
+},
+{
+    "xInt": 6.897600000000001,
+    "yInt": 4.0723,
+    "nodeName": 80,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": ["Spirit Healer"],
+    "name": "LOSTRIGGERCOVE_SPIRIT"
+},
+{
+    "xInt": 5.8235,
+    "yInt": 4.4578,
+    "nodeName": 81,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.390700000000001,
+    "yInt": 2.8804999999999996,
+    "nodeName": 82,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": ["Spirit Healer"],
+    "name": "GADGETZAN_SPIRIT"
+},
+{
+    "xInt": 5.1465000000000005,
+    "yInt": 2.8809,
+    "nodeName": 83,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "KRINKLE GOODSTEEL"
+},
+{
+    "xInt": 5.152299999999999,
+    "yInt": 2.9254999999999995,
+    "nodeName": 84,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2503,
+    "yInt": 2.7922000000000002,
+    "nodeName": 85,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": ["Vendor", "Innkeeper", "GADGETZAN"],
+    "name": "INNKEEPER FIZZGRIMBLE"
+},
+{
+    "xInt": 4.6744,
+    "yInt": 4.1861,
+    "nodeName": 86,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.2671,
+    "yInt": 5.3596,
+    "nodeName": 87,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": "TANARIS SOUTH AND SOUTH EAST GRIND START"
+},
+{
+    "xInt": 4.2508,
+    "yInt": 8.308,
+    "nodeName": 88,
+    "createdReason": "StartPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": "SHADOWPREY MANNOROC CAVERN GRIND START"
+},
+{
+    "xInt": 4.2799,
+    "yInt": 8.2887,
+    "nodeName": 89,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.9778000000000002,
+    "yInt": 7.737699999999999,
+    "nodeName": 90,
+    "createdReason": "StartPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.9323,
+    "yInt": 7.8453,
+    "nodeName": 91,
+    "createdReason": "StartPath_Node",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1283,
+    "yInt": 2.0917,
+    "nodeName": 92,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2200999999999995,
+    "yInt": 2.7931,
+    "nodeName": 93,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.1592,
+    "yInt": 7.7351,
+    "nodeName": 94,
+    "createdReason": "StartPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.1241,
+    "yInt": 7.7181999999999995,
+    "nodeName": 95,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.0695,
+    "yInt": 7.8784,
+    "nodeName": 96,
+    "createdReason": "StartPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.7287,
+    "yInt": 4.915900000000001,
+    "nodeName": 97,
+    "createdReason": "StartPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.021,
+    "yInt": 5.013800000000001,
+    "nodeName": 98,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.435,
+    "yInt": 3.6627,
+    "nodeName": 99,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": "SILITHUS NORTH EAST GRIND START"
+},
+{
+    "xInt": 8.1071,
+    "yInt": 2.0684,
+    "nodeName": 100,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": ["Spirit Healer"],
+    "name": "VALORSREST_SPIRIT"
+},
+{
+    "xInt": 7.2274,
+    "yInt": 3.2994000000000003,
+    "nodeName": 101,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7191,
+    "yInt": 3.7473,
+    "nodeName": 102,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": ["Spirit Healer"],
+    "name": "CENARIONHOLD_SPIRIT"
+},
+{
+    "xInt": 5.5089,
+    "yInt": 3.6646,
+    "nodeName": 103,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4181,
+    "yInt": 5.729699999999999,
+    "nodeName": 104,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": "SILITHUS GRIND SOUTH GRIND"
+},
+{
+    "xInt": 4.4107,
+    "yInt": 5.4284,
+    "nodeName": 105,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.8307,
+    "yInt": 3.9323,
+    "nodeName": 106,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.3091,
+    "yInt": 5.3371,
+    "nodeName": 107,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6962,
+    "yInt": 5.139899999999999,
+    "nodeName": 108,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.082000000000001,
+    "yInt": 9.1376,
+    "nodeName": 109,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.048299999999999,
+    "yInt": 7.7034,
+    "nodeName": 110,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": "UN'GORO SOUTHEAST GRIND START"
+},
+{
+    "xInt": 5.4723999999999995,
+    "yInt": 3.6734,
+    "nodeName": 111,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.3018,
+    "yInt": 3.2272,
+    "nodeName": 112,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1259999999999994,
+    "yInt": 3.7267,
+    "nodeName": 113,
+    "createdReason": "StartPath_Node",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.190099999999999,
+    "yInt": 3.9123,
+    "nodeName": 114,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": ["Innkeeper", "SILITHUS", "Vendor"],
+    "name": "CALANDRATH"
+},
+{
+    "xInt": 5.1205,
+    "yInt": 3.8849,
+    "nodeName": 115,
+    "createdReason": "EndPath_Node",
+    "zone": "SILITH",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "VARGUS"
+},
+{
+    "xInt": 2.9855,
+    "yInt": 7.1789000000000005,
+    "nodeName": 116,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.9922,
+    "yInt": 7.1191,
+    "nodeName": 117,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": "STEN STOUTARM"
+},
+{
+    "xInt": 2.9315999999999995,
+    "yInt": 7.2961,
+    "nodeName": 118,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.9084,
+    "yInt": 7.3386,
+    "nodeName": 119,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": "DUN MOROGH LOW LEVEL GRIND START"
+},
+{
+    "xInt": 3.0073,
+    "yInt": 7.1508,
+    "nodeName": 120,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": ["Vendor"],
+    "name": "ADLIN PRIDEDRIFT"
+},
+{
+    "xInt": 2.88,
+    "yInt": 6.921,
+    "nodeName": 121,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.8796,
+    "yInt": 6.891,
+    "nodeName": 122,
+    "createdReason": "EndPath_Node",
+    "zone": "ANVILM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.8710000000000004,
+    "yInt": 6.6352,
+    "nodeName": 123,
+    "createdReason": "EndPath_Node",
+    "zone": "ANVILM",
+    "tags": ["Mage Trainer"],
+    "name": "MARRYK NURRIBIT"
+},
+{
+    "xInt": 4.7359,
+    "yInt": 5.2425,
+    "nodeName": 124,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": ["Innkeeper", "Vendor"],
+    "name": "INNKEEPER BELM"
+},
+{
+    "xInt": 4.6895999999999995,
+    "yInt": 5.2571,
+    "nodeName": 125,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.529599999999999,
+    "yInt": 5.153,
+    "nodeName": 126,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "THRAWN BOLTAR"
+},
+{
+    "xInt": 4.7981,
+    "yInt": 4.7474,
+    "nodeName": 127,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": "KHARANOS GRIND START"
+},
+{
+    "xInt": 4.6341,
+    "yInt": 5.2170000000000005,
+    "nodeName": 128,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.3363000000000005,
+    "yInt": 3.4905999999999997,
+    "nodeName": 129,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.624,
+    "yInt": 4.4776,
+    "nodeName": 130,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.8233,
+    "yInt": 5.1386,
+    "nodeName": 131,
+    "createdReason": "StartPath_Node",
+    "zone": "CITY O",
+    "tags": ["Innkeeper", "Vendor"],
+    "name": "INNKEEPER FIREBREW"
+},
+{
+    "xInt": 1.6108,
+    "yInt": 8.426,
+    "nodeName": 132,
+    "createdReason": "EndPath_Node",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.5884999999999998,
+    "yInt": 8.447,
+    "nodeName": 133,
+    "createdReason": "StartPath_Node",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6265,
+    "yInt": 0.6753,
+    "nodeName": 134,
+    "createdReason": "StartPath_Node",
+    "zone": "CITY O",
+    "tags": ["Mage Trainer"],
+    "name": "JULI STORMKETTLE"
+},
+{
+    "xInt": 3.9899,
+    "yInt": 3.2507,
+    "nodeName": 135,
+    "createdReason": "StartPath_Node",
+    "zone": "CITY O",
+    "tags": ["Skinning Trainer"],
+    "name": "BALTHUS STONEFLAYER"
+},
+{
+    "xInt": 2.3774,
+    "yInt": 2.918,
+    "nodeName": 136,
+    "createdReason": "EndPath_Node",
+    "zone": "CITY O",
+    "tags": [""],
+    "name": ""
+},
+{
+    "xInt": 4.1514,
+    "yInt": 3.593,
+    "nodeName": 137,
+    "createdReason": "StartPath_Node",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.5526,
+    "yInt": 4.7748,
+    "nodeName": 138,
+    "createdReason": "EndPath_Node",
+    "zone": "CITY O",
+    "tags": ["Flight Master"],
+    "name": "GRYTH THURDEN"
+},
+{
+    "xInt": 4.6929,
+    "yInt": 4.4923,
+    "nodeName": 139,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.280200000000001,
+    "yInt": 5.4594,
+    "nodeName": 140,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": "GOL BOLAR GRIND START"
+},
+{
+    "xInt": 6.8866000000000005,
+    "yInt": 5.5950999999999995,
+    "nodeName": 141,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "FRAST DOKNER"
+},
+{
+    "xInt": 8.4343,
+    "yInt": 3.1163999999999996,
+    "nodeName": 142,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.3207,
+    "yInt": 2.2098999999999998,
+    "nodeName": 143,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.5524,
+    "yInt": 4.8414,
+    "nodeName": 144,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": ["Innkeeper", "Vendor"],
+    "name": "INNKEEPER HEARTHSTOVE"
+},
+{
+    "xInt": 3.3937,
+    "yInt": 5.0954,
+    "nodeName": 145,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": ["Flight Master"],
+    "name": "THORGRUM BORRELSON"
+},
+{
+    "xInt": 3.4810000000000003,
+    "yInt": 4.8176000000000005,
+    "nodeName": 146,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.4000999999999997,
+    "yInt": 4.6545,
+    "nodeName": 147,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "MORHAN COPPERTONGUE"
+},
+{
+    "xInt": 3.1805,
+    "yInt": 4.8278,
+    "nodeName": 148,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1324,
+    "yInt": 4.7782,
+    "nodeName": 149,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": "LOCH MODAN GRIND START"
+},
+{
+    "xInt": 3.2908,
+    "yInt": 4.9459,
+    "nodeName": 150,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.4831,
+    "yInt": 6.6067,
+    "nodeName": 151,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "ALDREN CORDON"
+},
+{
+    "xInt": 6.1049,
+    "yInt": 5.8548,
+    "nodeName": 152,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": "LOCH MODAN LAKE GRIND START"
+},
+{
+    "xInt": 6.0725,
+    "yInt": 5.893699999999999,
+    "nodeName": 153,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.0386,
+    "yInt": 5.8672,
+    "nodeName": 154,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.1121,
+    "yInt": 5.886900000000001,
+    "nodeName": 155,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6542,
+    "yInt": 2.3014,
+    "nodeName": 156,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5295,
+    "yInt": 0.0475,
+    "nodeName": 157,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.5627,
+    "yInt": 8.4609,
+    "nodeName": 158,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.0693,
+    "yInt": 6.096399999999999,
+    "nodeName": 159,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.0882,
+    "yInt": 5.9618,
+    "nodeName": 160,
+    "createdReason": "StartPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 0.9467000000000001,
+    "yInt": 5.9689000000000005,
+    "nodeName": 161,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": "SHELLEI BRONDIR"
+},
+{
+    "xInt": 1.1282,
+    "yInt": 5.838900000000001,
+    "nodeName": 162,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "NAELA TRANCE"
+},
+{
+    "xInt": 5.003,
+    "yInt": 3.981,
+    "nodeName": 163,
+    "createdReason": "StartPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.0207,
+    "yInt": 3.77,
+    "nodeName": 164,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": ["Vendor"],
+    "name": "KIXXLE"
+},
+{
+    "xInt": 2.282,
+    "yInt": 4.3064,
+    "nodeName": 165,
+    "createdReason": "StartPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": "MENETHIL HARBOR GRIND START"
+},
+{
+    "xInt": 2.2752,
+    "yInt": 4.361,
+    "nodeName": 166,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9039,
+    "yInt": 2.889,
+    "nodeName": 167,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": "GREENWARDEN'S GROVE GRIND START"
+},
+{
+    "xInt": 4.8819,
+    "yInt": 2.9225000000000003,
+    "nodeName": 168,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9131,
+    "yInt": 2.8556,
+    "nodeName": 169,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1112,
+    "yInt": 0.8137,
+    "nodeName": 170,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.547499999999999,
+    "yInt": 9.2899,
+    "nodeName": 171,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.5746,
+    "yInt": 4.6103,
+    "nodeName": 172,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": ["Flight Master"],
+    "name": "CEDRIK PROSE"
+},
+{
+    "xInt": 4.5973999999999995,
+    "yInt": 4.7749999999999995,
+    "nodeName": 173,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "JANNOS IRONWILL"
+},
+{
+    "xInt": 4.9635,
+    "yInt": 4.4138,
+    "nodeName": 174,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": "REFUGE POINTE INNER GRIND START"
+},
+{
+    "xInt": 4.9337,
+    "yInt": 4.391900000000001,
+    "nodeName": 175,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2467,
+    "yInt": 5.2498000000000005,
+    "nodeName": 176,
+    "createdReason": "StartPath_Node",
+    "zone": "BADLAN",
+    "tags": ["Item Repair", "Vendor"],
+    "name": "JAZZRIK"
+},
+{
+    "xInt": 4.9266,
+    "yInt": 0.6845999999999999,
+    "nodeName": 177,
+    "createdReason": "EndPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7415,
+    "yInt": 8.1918,
+    "nodeName": 178,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9426,
+    "yInt": 6.8603000000000005,
+    "nodeName": 179,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2391000000000005,
+    "yInt": 5.2915,
+    "nodeName": 180,
+    "createdReason": "StartPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.0685,
+    "yInt": 5.511,
+    "nodeName": 181,
+    "createdReason": "EndPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": "ULDAMAN GRIND START"
+},
+{
+    "xInt": 4.0254,
+    "yInt": 5.5738,
+    "nodeName": 182,
+    "createdReason": "EndPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.1071,
+    "yInt": 4.6145000000000005,
+    "nodeName": 183,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": ["Flight Master"],
+    "name": "GUTHRAM THUNDERFIST"
+},
+{
+    "xInt": 0.6275999999999999,
+    "yInt": 6.2279,
+    "nodeName": 184,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.995999999999999,
+    "yInt": 2.5295,
+    "nodeName": 185,
+    "createdReason": "EndPath_Node",
+    "zone": "HILLSB",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.8302,
+    "yInt": 4.826,
+    "nodeName": 186,
+    "createdReason": "EndPath_Node",
+    "zone": "HILLSB",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5048,
+    "yInt": 2.1018,
+    "nodeName": 187,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4153,
+    "yInt": 5.0214,
+    "nodeName": 188,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.4147,
+    "yInt": 4.157,
+    "nodeName": 189,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.2969,
+    "yInt": 4.7982000000000005,
+    "nodeName": 190,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.3417000000000001,
+    "yInt": 4.4144,
+    "nodeName": 191,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": ["Vendor", "Item Repair"],
+    "name": "HARGGAN"
+},
+{
+    "xInt": 1.4068,
+    "yInt": 4.3318,
+    "nodeName": 192,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.3868,
+    "yInt": 4.7304,
+    "nodeName": 193,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.3454,
+    "yInt": 4.8969000000000005,
+    "nodeName": 194,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.534,
+    "yInt": 5.1488,
+    "nodeName": 195,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": "AERIE PEAK GRIND START"
+},
+{
+    "xInt": 1.2475,
+    "yInt": 4.9803,
+    "nodeName": 196,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.0014000000000003,
+    "yInt": 5.3357,
+    "nodeName": 197,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": "LAKE GRIND START"
+},
+{
+    "xInt": 1.4596999999999998,
+    "yInt": 5.289000000000001,
+    "nodeName": 198,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.0404,
+    "yInt": 5.3037,
+    "nodeName": 199,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1638,
+    "yInt": 5.4505,
+    "nodeName": 200,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": "HINTERLANDS CENTRAL GRIND START"
+},
+{
+    "xInt": 3.171,
+    "yInt": 5.4094,
+    "nodeName": 201,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7585999999999995,
+    "yInt": 6.067399999999999,
+    "nodeName": 202,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": "HINTERLANDS COAST GRIND START"
+},
+{
+    "xInt": 2.8614,
+    "yInt": 5.4552,
+    "nodeName": 203,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7859,
+    "yInt": 6.0280000000000005,
+    "nodeName": 204,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.3103000000000002,
+    "yInt": 3.7939,
+    "nodeName": 205,
+    "createdReason": "StartPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.9846,
+    "yInt": 2.9342,
+    "nodeName": 206,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.2272,
+    "yInt": 5.7433,
+    "nodeName": 207,
+    "createdReason": "EndPath_Node",
+    "zone": "HILLSB",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.4483999999999995,
+    "yInt": 0.9964000000000001,
+    "nodeName": 208,
+    "createdReason": "EndPath_Node",
+    "zone": "HILLSB",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1892000000000005,
+    "yInt": 6.9448,
+    "nodeName": 209,
+    "createdReason": "EndPath_Node",
+    "zone": "ALTERA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.0719,
+    "yInt": 3.4596999999999998,
+    "nodeName": 210,
+    "createdReason": "EndPath_Node",
+    "zone": "ALTERA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4023,
+    "yInt": 8.6836,
+    "nodeName": 211,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.3556,
+    "yInt": 8.3879,
+    "nodeName": 212,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2925,
+    "yInt": 8.5041,
+    "nodeName": 213,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": ["Flight Master"],
+    "name": "BIBILFAZ FEATHERWHISTLE"
+},
+{
+    "xInt": 4.309200000000001,
+    "yInt": 8.4311,
+    "nodeName": 214,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": ["Item Repair", "Vendor"],
+    "name": "LEONARD PORTER"
+},
+{
+    "xInt": 6.0205,
+    "yInt": 3.9812,
+    "nodeName": 215,
+    "createdReason": "StartPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.655799999999999,
+    "yInt": 3.6189,
+    "nodeName": 216,
+    "createdReason": "EndPath_Node",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.0395,
+    "yInt": 6.293800000000001,
+    "nodeName": 217,
+    "createdReason": "StartPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2275,
+    "yInt": 6.047700000000001,
+    "nodeName": 218,
+    "createdReason": "EndPath_Node",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9348,
+    "yInt": 5.905399999999999,
+    "nodeName": 219,
+    "createdReason": "StartPath_Node",
+    "zone": "TANARI",
+    "tags": ["Spirit Healer"],
+    "name": "TANARIS SOUTH SPIRIT"
+},
+{
+    "xInt": 4.1878,
+    "yInt": 7.0216,
+    "nodeName": 220,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.6912,
+    "yInt": 2.7643,
+    "nodeName": 221,
+    "createdReason": "EndPath_Node",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.001100000000001,
+    "yInt": 5.6046,
+    "nodeName": 222,
+    "createdReason": "StartPath_Node",
+    "zone": "UN'GOR",
+    "tags": ["Spirit Healer"],
+    "name": "UN'GORO SPIRIT"
+},
+{
+    "xInt": 4.2519,
+    "yInt": 6.1731,
+    "nodeName": 223,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.1824,
+    "yInt": 5.6805,
+    "nodeName": 224,
+    "createdReason": "EndPath_Node",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.7767,
+    "yInt": 7.2804,
+    "nodeName": 225,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": [""],
+    "name": "WESTERN PLAGUELANDS GRIND START"
+},
+{
+    "xInt": 6.9631,
+    "yInt": 5.0196,
+    "nodeName": 226,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.1508,
+    "yInt": 7.2676,
+    "nodeName": 227,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.9795,
+    "yInt": 7.801900000000001,
+    "nodeName": 228,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.8375,
+    "yInt": 8.637599999999999,
+    "nodeName": 229,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.0968,
+    "yInt": 5.8731,
+    "nodeName": 230,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.1626,
+    "yInt": 5.807799999999999,
+    "nodeName": 231,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": ["Vendor", "Innkeeper"],
+    "name": "Jessica Chambers"
+},
+{
+    "xInt": 8.164,
+    "yInt": 5.9286,
+    "nodeName": 232,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": ["Flight Master"],
+    "name": "KHAELYN STEELWING"
+},
+{
+    "xInt": 8.0586,
+    "yInt": 5.7564,
+    "nodeName": 233,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": ["Vendor"],
+    "name": "JASE FARLANE"
+},
+{
+    "xInt": 8.0039,
+    "yInt": 6.6587,
+    "nodeName": 234,
+    "createdReason": "StartPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7919,
+    "yInt": 6.7334000000000005,
+    "nodeName": 235,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.9966,
+    "yInt": 6.953399999999999,
+    "nodeName": 236,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.8444000000000003,
+    "yInt": 7.0492,
+    "nodeName": 237,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7235,
+    "yInt": 5.465400000000001,
+    "nodeName": 238,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9442,
+    "yInt": 5.5006,
+    "nodeName": 239,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.5943000000000005,
+    "yInt": 5.5065,
+    "nodeName": 240,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.4389,
+    "yInt": 3.9204,
+    "nodeName": 241,
+    "createdReason": "StartPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.183299999999999,
+    "yInt": 3.5856,
+    "nodeName": 242,
+    "createdReason": "EndPath_Node",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.2443,
+    "yInt": 4.6898,
+    "nodeName": 243,
+    "createdReason": "StartPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.92,
+    "yInt": 4.5264,
+    "nodeName": 244,
+    "createdReason": "EndPath_Node",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9407,
+    "yInt": 4.1594,
+    "nodeName": 245,
+    "createdReason": "StartPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.1228,
+    "yInt": 4.3724,
+    "nodeName": 246,
+    "createdReason": "StartPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.6116,
+    "yInt": 4.5018,
+    "nodeName": 247,
+    "createdReason": "EndPath_Node",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.8989,
+    "yInt": 5.5623000000000005,
+    "nodeName": 248,
+    "createdReason": "StartPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.0128,
+    "yInt": 5.4826,
+    "nodeName": 249,
+    "createdReason": "EndPath_Node",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.664,
+    "yInt": 2.3653,
+    "nodeName": 250,
+    "createdReason": "StartPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2025,
+    "yInt": 2.052,
+    "nodeName": 251,
+    "createdReason": "EndPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 0.8407,
+    "yInt": 5.534400000000001,
+    "nodeName": 252,
+    "createdReason": "StartPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.8979,
+    "yInt": 6.1333,
+    "nodeName": 253,
+    "createdReason": "EndPath_Node",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.6951,
+    "yInt": 4.4612,
+    "nodeName": 254,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.4388,
+    "yInt": 5.3405000000000005,
+    "nodeName": 255,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.2948,
+    "yInt": 6.8336,
+    "nodeName": 256,
+    "createdReason": "StartPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.2707,
+    "yInt": 6.5722000000000005,
+    "nodeName": 257,
+    "createdReason": "EndPath_Node",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.5083,
+    "yInt": 8.5954,
+    "nodeName": 258,
+    "createdReason": "StartPath_Node",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.361800000000001,
+    "yInt": 8.453899999999999,
+    "nodeName": 259,
+    "createdReason": "EndPath_Node",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.0401,
+    "yInt": 6.5217,
+    "nodeName": 260,
+    "createdReason": "StartPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7546,
+    "yInt": 6.2825,
+    "nodeName": 261,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7265,
+    "yInt": 4.4889,
+    "nodeName": 262,
+    "createdReason": "StartPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.7163,
+    "yInt": 5.2492,
+    "nodeName": 263,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.9137,
+    "yInt": 9.3261,
+    "nodeName": 264,
+    "createdReason": "StartPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.7567,
+    "yInt": 7.867699999999999,
+    "nodeName": 265,
+    "createdReason": "EndPath_Node",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.276105177993528,
+    "yInt": 6.827788349514563,
+    "nodeName": 266,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.353435146443516,
+    "yInt": 6.7538720263000585,
+    "nodeName": 267,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.255807062264939,
+    "yInt": 4.4346053489343955,
+    "nodeName": 268,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.261554231280461,
+    "yInt": 4.352803322995129,
+    "nodeName": 269,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.321212484993998,
+    "yInt": 4.5301517406962795,
+    "nodeName": 270,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.639751694915253,
+    "yInt": 1.6064197740112949,
+    "nodeName": 271,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.615924999999999,
+    "yInt": 1.528297999999996,
+    "nodeName": 272,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.64997117008444,
+    "yInt": 1.6391442098914375,
+    "nodeName": 273,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.607938550600343,
+    "yInt": 1.4825153516295018,
+    "nodeName": 274,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.189259751037344,
+    "yInt": 3.27357190278601,
+    "nodeName": 275,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.107593258426966,
+    "yInt": 3.306274157303371,
+    "nodeName": 276,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.160271859296482,
+    "yInt": 3.2992363484087104,
+    "nodeName": 277,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.460112500000002,
+    "yInt": 5.870800000000001,
+    "nodeName": 278,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.492582047244095,
+    "yInt": 5.8681316535433075,
+    "nodeName": 279,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.498016197183098,
+    "yInt": 6.105931690140845,
+    "nodeName": 280,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.413890877796901,
+    "yInt": 5.978689500860554,
+    "nodeName": 281,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.253015046059366,
+    "yInt": 4.306718730808598,
+    "nodeName": 282,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2332858064516135,
+    "yInt": 6.742275483870966,
+    "nodeName": 283,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2995446378439075,
+    "yInt": 6.534403425042111,
+    "nodeName": 284,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.353612615138164,
+    "yInt": 5.902962234681617,
+    "nodeName": 285,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.262878962536022,
+    "yInt": 4.870233573487035,
+    "nodeName": 286,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.268214644160585,
+    "yInt": 4.828568704379563,
+    "nodeName": 287,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.260546850393701,
+    "yInt": 4.661533464566929,
+    "nodeName": 288,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.21745762538383,
+    "yInt": 4.234061207778916,
+    "nodeName": 289,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2315517241379315,
+    "yInt": 3.3779103448275904,
+    "nodeName": 290,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.162631735751301,
+    "yInt": 3.197796632124362,
+    "nodeName": 291,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.975998260869564,
+    "yInt": 2.926616521739129,
+    "nodeName": 292,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.8190499999999945,
+    "yInt": 2.6132749999999785,
+    "nodeName": 293,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.756248124999999,
+    "yInt": 2.3937606249999988,
+    "nodeName": 294,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.717329970326407,
+    "yInt": 2.30823145400593,
+    "nodeName": 295,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.19693786407767,
+    "yInt": 4.205310679611651,
+    "nodeName": 296,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.671499668068156,
+    "yInt": 2.191167028103564,
+    "nodeName": 297,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.647569702689948,
+    "yInt": 1.9855862199150565,
+    "nodeName": 298,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.257402445472571,
+    "yInt": 4.5490676801057495,
+    "nodeName": 299,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.34502392173819,
+    "yInt": 7.069925899902712,
+    "nodeName": 300,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.494769230769231,
+    "yInt": 2.5509769230769237,
+    "nodeName": 301,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.44097139979859,
+    "yInt": 2.6950174219536756,
+    "nodeName": 302,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4263516129032245,
+    "yInt": 2.760587096774202,
+    "nodeName": 303,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.420625,
+    "yInt": 2.8060749999999928,
+    "nodeName": 304,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.3865083684527395,
+    "yInt": 3.0623208910294997,
+    "nodeName": 305,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.603616488222698,
+    "yInt": 2.2878387580299773,
+    "nodeName": 306,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.534405243523316,
+    "yInt": 2.4525740725388605,
+    "nodeName": 307,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.50187608695652,
+    "yInt": 2.369103260869558,
+    "nodeName": 308,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.607199691426054,
+    "yInt": 1.9501677540224804,
+    "nodeName": 309,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.227628533685601,
+    "yInt": 3.0223232496697463,
+    "nodeName": 310,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.092039422639238,
+    "yInt": 6.4441273350660015,
+    "nodeName": 311,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.155587610619472,
+    "yInt": 6.646205309734523,
+    "nodeName": 312,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.163546495353907,
+    "yInt": 6.904904210164043,
+    "nodeName": 313,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.128324343675418,
+    "yInt": 6.977140095465393,
+    "nodeName": 314,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.901513409961686,
+    "yInt": 7.336588122605365,
+    "nodeName": 315,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8559456015953915,
+    "yInt": 8.230135497451808,
+    "nodeName": 316,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8731253661182423,
+    "yInt": 8.338571307177727,
+    "nodeName": 317,
+    "createdReason": "Intersection",
+    "zone": "ORGRIM",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.341912290502793,
+    "yInt": 6.246716759776536,
+    "nodeName": 318,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.394458108108109,
+    "yInt": 6.229431081081081,
+    "nodeName": 319,
+    "createdReason": "Intersection",
+    "zone": "DUROTA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.206464615384615,
+    "yInt": 3.234233846153842,
+    "nodeName": 320,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.10571875,
+    "yInt": 3.2160531249999984,
+    "nodeName": 321,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.028283025830258,
+    "yInt": 2.900775645756468,
+    "nodeName": 322,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.205263129973475,
+    "yInt": 3.5223383289124666,
+    "nodeName": 323,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.091158333333333,
+    "yInt": 3.3897249999999914,
+    "nodeName": 324,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.167032539221383,
+    "yInt": 3.4739111563044736,
+    "nodeName": 325,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.844952336448599,
+    "yInt": 2.8100920560747653,
+    "nodeName": 326,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.676972268907563,
+    "yInt": 3.6476781512605037,
+    "nodeName": 327,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.203968524590164,
+    "yInt": 3.35836721311475,
+    "nodeName": 328,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.088544646098004,
+    "yInt": 4.510138203266788,
+    "nodeName": 329,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.749160465116279,
+    "yInt": 5.655569767441861,
+    "nodeName": 330,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.682276693766939,
+    "yInt": 5.756220325203251,
+    "nodeName": 331,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.6135157894736745,
+    "yInt": 5.802568421052635,
+    "nodeName": 332,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.582787058823531,
+    "yInt": 5.815238823529412,
+    "nodeName": 333,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.534690091001011,
+    "yInt": 5.83509777553084,
+    "nodeName": 334,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.556144688090738,
+    "yInt": 6.316421550094519,
+    "nodeName": 335,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.488016873449133,
+    "yInt": 6.243004466501242,
+    "nodeName": 336,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.470538524590163,
+    "yInt": 6.2073204918032765,
+    "nodeName": 337,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.449042238267149,
+    "yInt": 6.163330866425994,
+    "nodeName": 338,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.424438237704918,
+    "yInt": 6.100032049180328,
+    "nodeName": 339,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.615600386764073,
+    "yInt": 6.163937473141384,
+    "nodeName": 340,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7430675,
+    "yInt": 6.35183125,
+    "nodeName": 341,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.741548824593129,
+    "yInt": 6.384574683544304,
+    "nodeName": 342,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.741619130434783,
+    "yInt": 6.512445217391303,
+    "nodeName": 343,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.701889064895249,
+    "yInt": 6.597747521716913,
+    "nodeName": 344,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.658664210526315,
+    "yInt": 5.825293684210527,
+    "nodeName": 345,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.704537931034483,
+    "yInt": 5.96982758620689,
+    "nodeName": 346,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.620180120481929,
+    "yInt": 6.802838253012049,
+    "nodeName": 347,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.603430149679258,
+    "yInt": 7.937603896412449,
+    "nodeName": 348,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.627670229007634,
+    "yInt": 6.74196386768448,
+    "nodeName": 349,
+    "createdReason": "Intersection",
+    "zone": "THE BA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.886950733078931,
+    "yInt": 5.684258144205664,
+    "nodeName": 350,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.181926497277676,
+    "yInt": 2.5123782214156085,
+    "nodeName": 351,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.011138605898123,
+    "yInt": 3.540818766756029,
+    "nodeName": 352,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.0176998476383945,
+    "yInt": 3.6835426104621547,
+    "nodeName": 353,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.995441482843137,
+    "yInt": 3.989587745098042,
+    "nodeName": 354,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.9947346938775503,
+    "yInt": 4.144669387755098,
+    "nodeName": 355,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.072590051937675,
+    "yInt": 4.278845345585298,
+    "nodeName": 356,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.269809136420526,
+    "yInt": 4.703424530663329,
+    "nodeName": 357,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.338320180475801,
+    "yInt": 4.705206480721904,
+    "nodeName": 358,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.957964085297419,
+    "yInt": 5.241075673400673,
+    "nodeName": 359,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.995062116468378,
+    "yInt": 5.748370319348778,
+    "nodeName": 360,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.961367452521282,
+    "yInt": 5.77309600523903,
+    "nodeName": 361,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.8866362410785085,
+    "yInt": 5.85391427438541,
+    "nodeName": 362,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.574361021505376,
+    "yInt": 5.9761233870967745,
+    "nodeName": 363,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.543370045781554,
+    "yInt": 5.979145781556573,
+    "nodeName": 364,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2932151079136815,
+    "yInt": 5.9447309352517985,
+    "nodeName": 365,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.066824703344121,
+    "yInt": 5.667920496224381,
+    "nodeName": 366,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.948538259833134,
+    "yInt": 5.596928963051251,
+    "nodeName": 367,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8551649926373717,
+    "yInt": 5.567009788421297,
+    "nodeName": 368,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1480868974881195,
+    "yInt": 4.748999660556688,
+    "nodeName": 369,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.7473348460291733,
+    "yInt": 4.135793273905996,
+    "nodeName": 370,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5844714285714283,
+    "yInt": 3.960435064935065,
+    "nodeName": 371,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.550822314969395,
+    "yInt": 3.780435837506961,
+    "nodeName": 372,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.183988392857142,
+    "yInt": 4.922401455026452,
+    "nodeName": 373,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.2029100456621005,
+    "yInt": 4.995225114155232,
+    "nodeName": 374,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.7995721958925746,
+    "yInt": 5.243836808846764,
+    "nodeName": 375,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8241352941176467,
+    "yInt": 5.173844117647059,
+    "nodeName": 376,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8344352941176467,
+    "yInt": 5.144235294117648,
+    "nodeName": 377,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8772680825242682,
+    "yInt": 5.097595266990294,
+    "nodeName": 378,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.9463157046979864,
+    "yInt": 5.063127194630873,
+    "nodeName": 379,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.14882820855615,
+    "yInt": 5.222384358288771,
+    "nodeName": 380,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.262022935779813,
+    "yInt": 5.315976146788989,
+    "nodeName": 381,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.299472261949567,
+    "yInt": 5.347003914188934,
+    "nodeName": 382,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.444055124531629,
+    "yInt": 5.460482896186908,
+    "nodeName": 383,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.3863059708981424,
+    "yInt": 5.388071015219936,
+    "nodeName": 384,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.104188341669872,
+    "yInt": 5.155163081954594,
+    "nodeName": 385,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.094160072137061,
+    "yInt": 5.116556970243465,
+    "nodeName": 386,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.238025000000001,
+    "yInt": 4.7127,
+    "nodeName": 387,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.414309948062326,
+    "yInt": 4.678008429884139,
+    "nodeName": 388,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.778743274853803,
+    "yInt": 4.948281286549719,
+    "nodeName": 389,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.803158764845605,
+    "yInt": 5.06174945368171,
+    "nodeName": 390,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.920021052631578,
+    "yInt": 5.229652631578947,
+    "nodeName": 391,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.992369999999999,
+    "yInt": 5.25142679245283,
+    "nodeName": 392,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.7101533039647565,
+    "yInt": 4.742092511013215,
+    "nodeName": 393,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.191442716433388,
+    "yInt": 5.3729926386728915,
+    "nodeName": 394,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.168641666666669,
+    "yInt": 5.333812500000002,
+    "nodeName": 395,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.127850737851798,
+    "yInt": 5.303658522188258,
+    "nodeName": 396,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.062875903614454,
+    "yInt": 5.259598795180722,
+    "nodeName": 397,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.768960400166735,
+    "yInt": 4.835617215506456,
+    "nodeName": 398,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.80310931638697,
+    "yInt": 5.634687240868708,
+    "nodeName": 399,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.68661376146789,
+    "yInt": 5.605579816513761,
+    "nodeName": 400,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.640928682170543,
+    "yInt": 5.583996124031008,
+    "nodeName": 401,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.584143478260864,
+    "yInt": 5.541499999999994,
+    "nodeName": 402,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.322205194644185,
+    "yInt": 5.39793235804612,
+    "nodeName": 403,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.170304298356511,
+    "yInt": 5.513424273072061,
+    "nodeName": 404,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.242254454976305,
+    "yInt": 5.505751279620853,
+    "nodeName": 405,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.0880679827930555,
+    "yInt": 5.992756383469041,
+    "nodeName": 406,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.4508994457887745,
+    "yInt": 7.3392618218718155,
+    "nodeName": 407,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.473907206024989,
+    "yInt": 7.437813464939808,
+    "nodeName": 408,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.756789087912874,
+    "yInt": 7.612722941892956,
+    "nodeName": 409,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.496769919703521,
+    "yInt": 7.468396911673874,
+    "nodeName": 410,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.854569061784897,
+    "yInt": 7.861459359267735,
+    "nodeName": 411,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.566066652444747,
+    "yInt": 7.382219498250704,
+    "nodeName": 412,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.9055640883977905,
+    "yInt": 5.441770718232045,
+    "nodeName": 413,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.3038990430622,
+    "yInt": 5.726877990430623,
+    "nodeName": 414,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 8.406160054573496,
+    "yInt": 5.811922707319951,
+    "nodeName": 415,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.731216381478074,
+    "yInt": 7.004856798528059,
+    "nodeName": 416,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.305555738934731,
+    "yInt": 7.667827981995501,
+    "nodeName": 417,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.6912630465008505,
+    "yInt": 8.265777599258458,
+    "nodeName": 418,
+    "createdReason": "Intersection",
+    "zone": "THOUSA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.321274378378379,
+    "yInt": 5.856451459459464,
+    "nodeName": 419,
+    "createdReason": "Intersection",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.251802165184973,
+    "yInt": 5.591848064238599,
+    "nodeName": 420,
+    "createdReason": "Intersection",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.264168188894654,
+    "yInt": 5.5261490918526235,
+    "nodeName": 421,
+    "createdReason": "Intersection",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.277272533927486,
+    "yInt": 5.451918533522383,
+    "nodeName": 422,
+    "createdReason": "Intersection",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.26289157204729,
+    "yInt": 5.685009633618165,
+    "nodeName": 423,
+    "createdReason": "Intersection",
+    "zone": "STONET",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5951399420246686,
+    "yInt": 7.426278184671565,
+    "nodeName": 424,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.57481512055871,
+    "yInt": 7.381800135742351,
+    "nodeName": 425,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.531211422098351,
+    "yInt": 7.268216170817212,
+    "nodeName": 426,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1099465597575677,
+    "yInt": 7.538185357265759,
+    "nodeName": 427,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.048115565048617,
+    "yInt": 7.489417036207808,
+    "nodeName": 428,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.9922683446090157,
+    "yInt": 7.827692635226099,
+    "nodeName": 429,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.875593198090693,
+    "yInt": 4.446444152744629,
+    "nodeName": 430,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.084865880481178,
+    "yInt": 2.9152538022365757,
+    "nodeName": 431,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.023636766026151,
+    "yInt": 3.3931951735369097,
+    "nodeName": 432,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.087910649877657,
+    "yInt": 3.5862793773348383,
+    "nodeName": 433,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1641530734744725,
+    "yInt": 3.6878848482254085,
+    "nodeName": 434,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.197115716087805,
+    "yInt": 3.7238307139853664,
+    "nodeName": 435,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.60245801823271,
+    "yInt": 3.556204212554979,
+    "nodeName": 436,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.596316774227542,
+    "yInt": 3.637460599041918,
+    "nodeName": 437,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.471304683776273,
+    "yInt": 3.7274938371364827,
+    "nodeName": 438,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.723763295867402,
+    "yInt": 2.7692554086525814,
+    "nodeName": 439,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.846861927715514,
+    "yInt": 2.8538482570287353,
+    "nodeName": 440,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9939884693310175,
+    "yInt": 2.875102149952519,
+    "nodeName": 441,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.950615827338129,
+    "yInt": 5.701236510791368,
+    "nodeName": 442,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.850593939393939,
+    "yInt": 5.731106060606061,
+    "nodeName": 443,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1057821011673146,
+    "yInt": 5.722933073929962,
+    "nodeName": 444,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.237478048780488,
+    "yInt": 5.512265853658536,
+    "nodeName": 445,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.207018312387792,
+    "yInt": 6.953652244165171,
+    "nodeName": 446,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.2267,
+    "yInt": 6.8840142857142865,
+    "nodeName": 447,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.282477256153144,
+    "yInt": 6.086008796718321,
+    "nodeName": 448,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.356764988425927,
+    "yInt": 6.099912268518521,
+    "nodeName": 449,
+    "createdReason": "Intersection",
+    "zone": "DESOLA",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.776690269686728,
+    "yInt": 2.9280488217614824,
+    "nodeName": 450,
+    "createdReason": "Intersection",
+    "zone": "TANARI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.053418323586744,
+    "yInt": 7.766787914230024,
+    "nodeName": 451,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.043516419239906,
+    "yInt": 7.838203028503585,
+    "nodeName": 452,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.034165386439072,
+    "yInt": 7.908981839734471,
+    "nodeName": 453,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.879318112244897,
+    "yInt": 7.937317857142857,
+    "nodeName": 454,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.875715971394516,
+    "yInt": 7.534935518474374,
+    "nodeName": 455,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.829371875,
+    "yInt": 7.488684374999998,
+    "nodeName": 456,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.4715173913043476,
+    "yInt": 8.249034782608694,
+    "nodeName": 457,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.83863941267388,
+    "yInt": 8.30931653786708,
+    "nodeName": 458,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.953136919060052,
+    "yInt": 8.171855248041766,
+    "nodeName": 459,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.066680250867361,
+    "yInt": 8.149811982919669,
+    "nodeName": 460,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.214197957099078,
+    "yInt": 8.026247293156285,
+    "nodeName": 461,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.239963338088446,
+    "yInt": 8.010595863052782,
+    "nodeName": 462,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.353533152173913,
+    "yInt": 7.9350438276397455,
+    "nodeName": 463,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.466225193667901,
+    "yInt": 7.817914280902659,
+    "nodeName": 464,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.50687368115942,
+    "yInt": 7.837166434782609,
+    "nodeName": 465,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.558286552406065,
+    "yInt": 7.840065326301912,
+    "nodeName": 466,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.624169565217393,
+    "yInt": 7.804752173913043,
+    "nodeName": 467,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.716254488610989,
+    "yInt": 7.827187762393926,
+    "nodeName": 468,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.800699999999999,
+    "yInt": 7.882,
+    "nodeName": 469,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.938950520471894,
+    "yInt": 7.957995419847329,
+    "nodeName": 470,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.084983191644402,
+    "yInt": 7.72658214719456,
+    "nodeName": 471,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.122202185380557,
+    "yInt": 5.668758967596084,
+    "nodeName": 472,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.30335356460853,
+    "yInt": 6.128252928071293,
+    "nodeName": 473,
+    "createdReason": "Intersection",
+    "zone": "UN'GOR",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.725536887227962,
+    "yInt": 4.003334930754011,
+    "nodeName": 474,
+    "createdReason": "Intersection",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.424125364154529,
+    "yInt": 5.399520550981634,
+    "nodeName": 475,
+    "createdReason": "Intersection",
+    "zone": "SILITH",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.9696809756097577,
+    "yInt": 7.2278643902439015,
+    "nodeName": 476,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6508870151770654,
+    "yInt": 7.395546711635751,
+    "nodeName": 477,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.88305704041721,
+    "yInt": 7.011663233376794,
+    "nodeName": 478,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.9778000000000135,
+    "yInt": 4.643000000000008,
+    "nodeName": 479,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.013399999999979,
+    "yInt": 4.666999999999981,
+    "nodeName": 480,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.03890000000006,
+    "yInt": 4.686800000000039,
+    "nodeName": 481,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.0877,
+    "yInt": 4.7181,
+    "nodeName": 482,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1252999999999975,
+    "yInt": 4.742099999999999,
+    "nodeName": 483,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.1678877305533275,
+    "yInt": 4.762964073777063,
+    "nodeName": 484,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.865835457063712,
+    "yInt": 5.517620221606649,
+    "nodeName": 485,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.2286243523316065,
+    "yInt": 3.576025388601036,
+    "nodeName": 486,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.9462009302325565,
+    "yInt": 5.201922511627904,
+    "nodeName": 487,
+    "createdReason": "Intersection",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.977605636294705,
+    "yInt": 5.260463035511185,
+    "nodeName": 488,
+    "createdReason": "Intersection",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.263783857060314,
+    "yInt": 3.480025267789678,
+    "nodeName": 489,
+    "createdReason": "Intersection",
+    "zone": "CITY O",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.50411934713376,
+    "yInt": 5.397641082802547,
+    "nodeName": 490,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.4535417910447705,
+    "yInt": 5.404802985074627,
+    "nodeName": 491,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.409149299719885,
+    "yInt": 5.426114565826334,
+    "nodeName": 492,
+    "createdReason": "Intersection",
+    "zone": "DUN MO",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.5209218181818187,
+    "yInt": 4.774092727272728,
+    "nodeName": 493,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6293318562493373,
+    "yInt": 2.271017905226333,
+    "nodeName": 494,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.141764657171249,
+    "yInt": 4.563766578337198,
+    "nodeName": 495,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.648460205032619,
+    "yInt": 2.2444957129543335,
+    "nodeName": 496,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.998709058370044,
+    "yInt": 4.547056029735684,
+    "nodeName": 497,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.1972973992197655,
+    "yInt": 4.567948244473343,
+    "nodeName": 498,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.434109873417722,
+    "yInt": 6.462840506329114,
+    "nodeName": 499,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.792568523539564,
+    "yInt": 6.367975647029825,
+    "nodeName": 500,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.917067009538059,
+    "yInt": 6.941629661492425,
+    "nodeName": 501,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.962148004587155,
+    "yInt": 5.895546949541284,
+    "nodeName": 502,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.905446186173566,
+    "yInt": 5.917505358268544,
+    "nodeName": 503,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.78830605427975,
+    "yInt": 6.118054488517744,
+    "nodeName": 504,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.722053004484306,
+    "yInt": 6.2123326457399095,
+    "nodeName": 505,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.701808837707553,
+    "yInt": 6.241248794858059,
+    "nodeName": 506,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.676533976833981,
+    "yInt": 6.277190733590727,
+    "nodeName": 507,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.076248966942149,
+    "yInt": 5.73237520661157,
+    "nodeName": 508,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.179690625000001,
+    "yInt": 5.4791743749999995,
+    "nodeName": 509,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.240371327433628,
+    "yInt": 5.278362123893807,
+    "nodeName": 510,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.260994586894587,
+    "yInt": 5.244714529914528,
+    "nodeName": 511,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.262154446854664,
+    "yInt": 5.206452494576979,
+    "nodeName": 512,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.164559168704155,
+    "yInt": 5.6029380195599074,
+    "nodeName": 513,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.069869985429819,
+    "yInt": 5.787577221952411,
+    "nodeName": 514,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.064449684741488,
+    "yInt": 5.825441235813365,
+    "nodeName": 515,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.008613861386138,
+    "yInt": 5.895917680339462,
+    "nodeName": 516,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.1363869318181825,
+    "yInt": 5.762393409090908,
+    "nodeName": 517,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.328070552313747,
+    "yInt": 5.120994056181303,
+    "nodeName": 518,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.310777603866958,
+    "yInt": 4.088784957992865,
+    "nodeName": 519,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.675281701444624,
+    "yInt": 4.148882878544676,
+    "nodeName": 520,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.648621629485936,
+    "yInt": 4.662183317167798,
+    "nodeName": 521,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.556282499458522,
+    "yInt": 4.752321182586096,
+    "nodeName": 522,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.508076215066828,
+    "yInt": 4.8854434690157955,
+    "nodeName": 523,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.461940809011776,
+    "yInt": 5.1327575908858165,
+    "nodeName": 524,
+    "createdReason": "Intersection",
+    "zone": "LOCH M",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.0922673469387751,
+    "yInt": 5.925832653061225,
+    "nodeName": 525,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.978960641149351,
+    "yInt": 3.9404377398949295,
+    "nodeName": 526,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.5678181818181818,
+    "yInt": 4.497081818181819,
+    "nodeName": 527,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.996098026315789,
+    "yInt": 3.789418421052627,
+    "nodeName": 528,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.087499999999998,
+    "yInt": 2.6866333333333374,
+    "nodeName": 529,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.113295238095238,
+    "yInt": 2.6370571428571434,
+    "nodeName": 530,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.953078461538461,
+    "yInt": 3.2588523076923117,
+    "nodeName": 531,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.940117170111288,
+    "yInt": 3.3053612082670902,
+    "nodeName": 532,
+    "createdReason": "Intersection",
+    "zone": "WETLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.406457160963244,
+    "yInt": 6.465118694550066,
+    "nodeName": 533,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.4054320441988954,
+    "yInt": 5.147957379636942,
+    "nodeName": 534,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.048852846199175,
+    "yInt": 4.352027024160283,
+    "nodeName": 535,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.061626977950715,
+    "yInt": 4.3097535667963704,
+    "nodeName": 536,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.0495,
+    "yInt": 4.264611111111112,
+    "nodeName": 537,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.036734170854272,
+    "yInt": 4.226341708542716,
+    "nodeName": 538,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.083988577586206,
+    "yInt": 4.098119181034484,
+    "nodeName": 539,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.809491188694929,
+    "yInt": 3.79295357439734,
+    "nodeName": 540,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.753386504764832,
+    "yInt": 3.7263833691976633,
+    "nodeName": 541,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.724661067396511,
+    "yInt": 3.6726515224084864,
+    "nodeName": 542,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.652261733615221,
+    "yInt": 3.7134295983086716,
+    "nodeName": 543,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.845163953488372,
+    "yInt": 6.047120494186046,
+    "nodeName": 544,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.816851558073654,
+    "yInt": 5.841031444759206,
+    "nodeName": 545,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.883267957276368,
+    "yInt": 4.902832710280373,
+    "nodeName": 546,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.947542038216561,
+    "yInt": 4.703860509554133,
+    "nodeName": 547,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.067471978727306,
+    "yInt": 5.256079754263707,
+    "nodeName": 548,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.068640080767289,
+    "yInt": 5.475464765270061,
+    "nodeName": 549,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.762713427561836,
+    "yInt": 5.386633215547705,
+    "nodeName": 550,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.899838028169014,
+    "yInt": 5.385267605633803,
+    "nodeName": 551,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.930700905562743,
+    "yInt": 5.5676168175937875,
+    "nodeName": 552,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.546496862960927,
+    "yInt": 5.180771051183268,
+    "nodeName": 553,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.809944080409781,
+    "yInt": 4.868123639702331,
+    "nodeName": 554,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.292728561541123,
+    "yInt": 2.1229468104741045,
+    "nodeName": 555,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.058977512776831,
+    "yInt": 5.56969488926746,
+    "nodeName": 556,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.9333240354767187,
+    "yInt": 5.988144567627494,
+    "nodeName": 557,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.4890868312757206,
+    "yInt": 7.223793209876543,
+    "nodeName": 558,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.571071089385476,
+    "yInt": 7.261708659217877,
+    "nodeName": 559,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.153169431380932,
+    "yInt": 7.221174305258658,
+    "nodeName": 560,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.406400712589074,
+    "yInt": 7.260737767220902,
+    "nodeName": 561,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.964528762541806,
+    "yInt": 7.516639464882943,
+    "nodeName": 562,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.114793656411656,
+    "yInt": 7.504346882657228,
+    "nodeName": 563,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 5.326762690009436,
+    "yInt": 7.476914414508858,
+    "nodeName": 564,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.719554146341463,
+    "yInt": 5.979989268292684,
+    "nodeName": 565,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.481412439193884,
+    "yInt": 5.962770882557331,
+    "nodeName": 566,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.8079125247633725,
+    "yInt": 6.055927052608409,
+    "nodeName": 567,
+    "createdReason": "Intersection",
+    "zone": "BADLAN",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.3859214305989216,
+    "yInt": 4.835441981265966,
+    "nodeName": 568,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.235438086956522,
+    "yInt": 5.052866782608696,
+    "nodeName": 569,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.2637909150326796,
+    "yInt": 5.031021633986928,
+    "nodeName": 570,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.27012903930131,
+    "yInt": 3.5905846069869014,
+    "nodeName": 571,
+    "createdReason": "Intersection",
+    "zone": "ARATHI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.391869668928645,
+    "yInt": 4.769306785934608,
+    "nodeName": 572,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.242351493186431,
+    "yInt": 5.18107436938243,
+    "nodeName": 573,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.497502702702703,
+    "yInt": 5.294008108108108,
+    "nodeName": 574,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.7130495702005724,
+    "yInt": 5.452559025787967,
+    "nodeName": 575,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.8322870619946077,
+    "yInt": 5.415695507637017,
+    "nodeName": 576,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.6820188285511026,
+    "yInt": 5.999433673227413,
+    "nodeName": 577,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.564112375790424,
+    "yInt": 5.875354110207768,
+    "nodeName": 578,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.544458676207512,
+    "yInt": 5.838347048300533,
+    "nodeName": 579,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.5280505219206693,
+    "yInt": 5.807282254697288,
+    "nodeName": 580,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.4906166599759136,
+    "yInt": 5.751197109594541,
+    "nodeName": 581,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.401792452830188,
+    "yInt": 5.621184905660376,
+    "nodeName": 582,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.3686948186528496,
+    "yInt": 5.527269948186528,
+    "nodeName": 583,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.1829920277296364,
+    "yInt": 5.465460658578856,
+    "nodeName": 584,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.1334557119205297,
+    "yInt": 5.429306953642384,
+    "nodeName": 585,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.735019512195123,
+    "yInt": 5.420080487804878,
+    "nodeName": 586,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.8002685671417846,
+    "yInt": 5.4045192048012005,
+    "nodeName": 587,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.0548859109311737,
+    "yInt": 5.346967287449392,
+    "nodeName": 588,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.001353932584269,
+    "yInt": 5.225170786516855,
+    "nodeName": 589,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.2240214285714295,
+    "yInt": 5.485147354497355,
+    "nodeName": 590,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 1.9464622790697672,
+    "yInt": 5.286979860465117,
+    "nodeName": 591,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.914071012145749,
+    "yInt": 5.377260809716599,
+    "nodeName": 592,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.103558962264151,
+    "yInt": 4.758486320754717,
+    "nodeName": 593,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.3654061165608775,
+    "yInt": 5.590681919599916,
+    "nodeName": 594,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.953586548223351,
+    "yInt": 5.35388807106599,
+    "nodeName": 595,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.332810657950831,
+    "yInt": 5.009833835441239,
+    "nodeName": 596,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.3934972525076317,
+    "yInt": 5.422377671173136,
+    "nodeName": 597,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 2.0986620031796503,
+    "yInt": 5.34157186009539,
+    "nodeName": 598,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.2001704898446826,
+    "yInt": 5.352883691756272,
+    "nodeName": 599,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.150807335680751,
+    "yInt": 5.346124471830986,
+    "nodeName": 600,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.857658901280462,
+    "yInt": 5.608069640644362,
+    "nodeName": 601,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.326837952917093,
+    "yInt": 5.479070358239509,
+    "nodeName": 602,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.218782649109217,
+    "yInt": 6.590645623547637,
+    "nodeName": 603,
+    "createdReason": "Intersection",
+    "zone": "THE HI",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8124058823529405,
+    "yInt": 6.949008823529413,
+    "nodeName": 604,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8654928469919465,
+    "yInt": 6.464668545712934,
+    "nodeName": 605,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.162895348837209,
+    "yInt": 6.082472868217053,
+    "nodeName": 606,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.91890198019802,
+    "yInt": 5.676135643564356,
+    "nodeName": 607,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 4.721441733547352,
+    "yInt": 5.712170947030529,
+    "nodeName": 608,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8450037267080743,
+    "yInt": 6.886106832298136,
+    "nodeName": 609,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.841625380304244,
+    "yInt": 6.918762930344286,
+    "nodeName": 610,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8335070792708774,
+    "yInt": 7.056111530309465,
+    "nodeName": 611,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 3.8310045842217493,
+    "yInt": 7.171634434968015,
+    "nodeName": 612,
+    "createdReason": "Intersection",
+    "zone": "WESTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.154408520179373,
+    "yInt": 7.2415387144992565,
+    "nodeName": 613,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.607240595903164,
+    "yInt": 7.09037932960894,
+    "nodeName": 614,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.917969230769232,
+    "yInt": 6.722846153846152,
+    "nodeName": 615,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.951907048799381,
+    "yInt": 6.671940433772269,
+    "nodeName": 616,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.82975289473684,
+    "yInt": 6.308451578947368,
+    "nodeName": 617,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 7.655944015444015,
+    "yInt": 5.264538996138996,
+    "nodeName": 618,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.4628250550526065,
+    "yInt": 4.802038610227551,
+    "nodeName": 619,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.617161077324066,
+    "yInt": 5.101829510570518,
+    "nodeName": 620,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+},
+{
+    "xInt": 6.638594197437829,
+    "yInt": 5.147629264004017,
+    "nodeName": 621,
+    "createdReason": "Intersection",
+    "zone": "EASTER",
+    "tags": [],
+    "name": ""
+}]

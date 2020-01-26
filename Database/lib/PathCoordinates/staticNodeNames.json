@@ -1,0 +1,426 @@
+[
+{
+    "nodeCoords":
+    {
+        "xInt": 4.2065,
+        "yInt": 6.8401
+    },
+    "node": 1,
+    "name": "GORNEK",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.3924,
+        "yInt": 6.6627
+    },
+    "node": 2,
+    "name": "MOTTLED BOAR START",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.2502,
+        "yInt": 6.904400000000001
+    },
+    "node": 3,
+    "name": "MAI'AH",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.265499999999999,
+        "yInt": 6.7194
+    },
+    "node": 4,
+    "name": "ZLAGK",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.1864,
+        "yInt": 6.4549
+    },
+    "node": 5,
+    "name": "SCORPID WORKER START",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.2073,
+        "yInt": 6.8288
+    },
+    "node": 6,
+    "name": "UKOR",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.4133,
+        "yInt": 6.9304
+    },
+    "node": 16,
+    "name": "VALLEY_SPIRIT",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.3232,
+        "yInt": 6.8432
+    },
+    "node": 17,
+    "name": "KALTUNK",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.152299999999999,
+        "yInt": 4.1674
+    },
+    "node": 18,
+    "name": "INNKEEPER GROSK",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.1732,
+        "yInt": 7.6204
+    },
+    "node": 19,
+    "name": "OVERLORD RUNTHAK",
+    "zone": "ORGRIM"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 6.287700000000001,
+        "yInt": 4.5179
+    },
+    "node": 20,
+    "name": "KODOHIDE LEATHERWORKERS",
+    "zone": "ORGRIM",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.226699999999999,
+        "yInt": 4.4992
+    },
+    "node": 21,
+    "name": "DIRE BOAR SCORPID START",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.226699999999999,
+        "yInt": 4.4992
+    },
+    "node": 21,
+    "name": "DIRE BOAR SCORPID GRIND",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.300000000000001,
+        "yInt": 4.1064
+    },
+    "node": 22,
+    "name": "GHRAWT",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.3102,
+        "yInt": 3.0268
+    },
+    "node": 23,
+    "name": "TOR'KREN FARM",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.6642,
+        "yInt": 1.7207
+    },
+    "node": 24,
+    "name": "ELDER MOTTLED BOAR START",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.620699999999999,
+        "yInt": 7.3243
+    },
+    "node": 25,
+    "name": "SORAN'S LEATHER AND STEEL ARMORY",
+    "zone": "ORGRIM",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.0866,
+        "yInt": 4.3598
+    },
+    "node": 26,
+    "name": "TAKRIN PATHSEEKER",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 6.2263,
+        "yInt": 1.9377
+    },
+    "node": 27,
+    "name": "KARGAL BATTLESCAR",
+    "zone": "THE BA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.2231000000000005,
+        "yInt": 3.0967000000000002
+    },
+    "node": 29,
+    "name": "SERGRA DARKTHORN",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.1935,
+        "yInt": 3.0348
+    },
+    "node": 30,
+    "name": "GAZROG",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.1988,
+        "yInt": 2.9911
+    },
+    "node": 31,
+    "name": "INNKEEPER BOORAND",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.2608999999999995,
+        "yInt": 2.9857
+    },
+    "node": 32,
+    "name": "ZARGH",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.152,
+        "yInt": 3.0353999999999997
+    },
+    "node": 33,
+    "name": "DEVRAK",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.5342,
+        "yInt": 6.378399999999999
+    },
+    "node": 34,
+    "name": "DORAS",
+    "zone": "ORGRIM",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 3.8758999999999997,
+        "yInt": 8.551499999999999
+    },
+    "node": 35,
+    "name": "ENYO",
+    "zone": "ORGRIM",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.4089,
+        "yInt": 6.852
+    },
+    "node": 38,
+    "name": "INNKEEPER GRYSHKA",
+    "zone": "ORGRIM",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.6299,
+        "yInt": 1.7932000000000001
+    },
+    "node": 39,
+    "name": "ELDER MOTTLED BOAR GRIND",
+    "zone": "DUROTA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.4061,
+        "yInt": 6.6228
+    },
+    "node": 40,
+    "name": "MOTTLED BOAR GRIND",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.1724,
+        "yInt": 6.4121
+    },
+    "node": 41,
+    "name": "SCORPID WORKER GRIND",
+    "zone": "DUROTA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.2308,
+        "yInt": 3.2836
+    },
+    "node": 43,
+    "name": "GREATER PLAINSTRIDER START",
+    "zone": "THE BA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.4444,
+        "yInt": 5.914000000000001
+    },
+    "node": 45,
+    "name": "OMUSA THUNDERHORN",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.5065,
+        "yInt": 5.9079999999999995
+    },
+    "node": 46,
+    "name": "DRANH",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 5.2244,
+        "yInt": 3.1857999999999995
+    },
+    "node": 47,
+    "name": "HALIJA WHITESTRIDER",
+    "zone": "THE BA"
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.6722,
+        "yInt": 4.8083
+    },
+    "node": 50,
+    "name": "BOTTOM OF FREEWIND POST LIFT",
+    "zone": "THOUSA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.6612,
+        "yInt": 4.8378
+    },
+    "node": 51,
+    "name": "TOP OF FREEWIND POST LIFT",
+    "zone": "THOUSA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.5133,
+        "yInt": 4.908799999999999
+    },
+    "node": 52,
+    "name": "NYSE",
+    "zone": "THOUSA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.4896,
+        "yInt": 5.0679
+    },
+    "node": 53,
+    "name": "STARN",
+    "zone": "THOUSA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.6046,
+        "yInt": 5.142099999999999
+    },
+    "node": 54,
+    "name": "ABEQWA",
+    "zone": "THOUSA",
+    "tags": []
+},
+{
+    "nodeCoords":
+    {
+        "xInt": 4.238025000000001,
+        "yInt": 4.7127
+    },
+    "node": 193,
+    "name": "88",
+    "zone": "THOUSA",
+    "tags": []
+}]
