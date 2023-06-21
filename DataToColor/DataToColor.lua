@@ -3,7 +3,8 @@
 ----------------------------------------------------------------------------
 
 DataToColor = {}
-DataToColor = LibStub("AceAddon-3.0"):NewAddon("AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0", "AceComm-3.0", "AceSerializer-3.0")
+DataToColor = LibStub("AceAddon-3.0"):NewAddon("AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0", "AceComm-3.0",
+    "AceSerializer-3.0")
 
 DATA_CONFIG = {
     ACCEPT_PARTY_REQUESTS = false, -- O
@@ -13,9 +14,9 @@ DATA_CONFIG = {
     GOSSIP = true,
     REZ = true,
     HIDE_SHAPESHIFT_BAR = true,
-    AUTO_REPAIR_ITEMS = true, -- O
+    AUTO_REPAIR_ITEMS = true,  -- O
     AUTO_LEARN_TALENTS = true, -- O
-    AUTO_TRAIN_SPELLS = true, -- O
+    AUTO_TRAIN_SPELLS = true,  -- O
     AUTO_RESURRECT = true,
     SELL_WHITE_ITEMS = true
 }
@@ -54,7 +55,7 @@ local NUMBER_OF_FRAMES = 50
 -- Set number of pixel rows
 local FRAME_ROWS = 1
 -- Size of data squares in px. Varies based on rounding errors as well as dimension size. Use as a guideline, but not 100% accurate.
-local CELL_SIZE = 3
+local CELL_SIZE = 5
 -- Spacing in px between data squares.
 local CELL_SPACING = 0
 -- Item slot trackers initialization
@@ -86,7 +87,12 @@ DataToColor.r = 0
 local CHARACTER_NAME = UnitName("player")
 
 -- List of possible subzones to which a player's hearthstone may be bound
-local HearthZoneList = {"CENARION HOLD", "VALLEY OF TRIALS", "THE CROSSROADS", "RAZOR HILL", "DUROTAR", "ORGRIMMAR", "CAMP TAURAJO", "FREEWIND POST", "GADGETZAN", "SHADOWPREY VILLAGE", "THUNDER BLUFF", "UNDERCITY", "CAMP MOJACHE", "COLDRIDGE VALLEY", "DUN MOROGH", "THUNDERBREW DISTILLERY", "IRONFORGE", "STOUTLAGER INN", "STORMWIND CITY", "SOUTHSHORE", "LAKESHIRE", "STONETALON PEAK", "GOLDSHIRE", "SENTINEL HILL", "DEEPWATER TAVERN", "THERAMORE ISLE", "DOLANAAR", "ASTRANAAR", "NIJEL'S POINT", "CRAFTSMEN'S TERRACE", "AUBERDINE", "FEATHERMOON STRONGHOLD", "BOOTY BAY", "WILDHAMMER KEEP", "DARKSHIRE", "EVERLOOK", "RATCHET", "LIGHT'S HOPE CHAPEL"}
+local HearthZoneList = { "CENARION HOLD", "VALLEY OF TRIALS", "THE CROSSROADS", "RAZOR HILL", "DUROTAR", "ORGRIMMAR",
+    "CAMP TAURAJO", "FREEWIND POST", "GADGETZAN", "SHADOWPREY VILLAGE", "THUNDER BLUFF", "UNDERCITY", "CAMP MOJACHE",
+    "COLDRIDGE VALLEY", "DUN MOROGH", "THUNDERBREW DISTILLERY", "IRONFORGE", "STOUTLAGER INN", "STORMWIND CITY",
+    "SOUTHSHORE", "LAKESHIRE", "STONETALON PEAK", "GOLDSHIRE", "SENTINEL HILL", "DEEPWATER TAVERN", "THERAMORE ISLE",
+    "DOLANAAR", "ASTRANAAR", "NIJEL'S POINT", "CRAFTSMEN'S TERRACE", "AUBERDINE", "FEATHERMOON STRONGHOLD", "BOOTY BAY",
+    "WILDHAMMER KEEP", "DARKSHIRE", "EVERLOOK", "RATCHET", "LIGHT'S HOPE CHAPEL", "NORTHSHIRE VALLEY" }
 local EnchantmentStrings = {}
 
 function DataToColor:slashCommands()
@@ -107,12 +113,14 @@ function StartSetup()
         SETUP_SEQUENCE = false
     end
 end
+
 function DataToColor:error(msg)
     self:log("|cff0000ff" .. msg .. "|r")
     self:log(msg)
     self:log(debugstack())
     error(msg)
 end
+
 -- Automatic Modulo function for Lua 5 and earlier
 function Modulo(val, by)
     return val - math.floor(val / by) * by
@@ -142,7 +150,7 @@ end
 -- Discover player's direction in radians (360 degrees = 2π radians)
 function DataToColor:GetPlayerFacing()
     local p = Minimap
-    local m = ({p:GetChildren()})[9]
+    local m = ({ p:GetChildren() })[9]
     return GetPlayerFacing()
 end
 
@@ -158,20 +166,20 @@ function integerToColor(i)
     if i ~= math.floor(i) then
         error("The number passed to 'integerToColor' must be an integer")
     end
-    
+
     if i > (256 * 256 * 256 - 1) then -- the biggest value to represent with 3 bytes of colour
         error("Integer too big to encode as color")
     end
-    
+
     -- r,g,b are integers in range 0-255
     local b = Modulo(i, 256)
     i = math.floor(i / 256)
     local g = Modulo(i, 256)
     i = math.floor(i / 256)
     local r = Modulo(i, 256)
-    
+
     -- then we turn them into 0-1 range
-    return {r / 255, g / 255, b / 255}
+    return { r / 255, g / 255, b / 255 }
 end
 
 -- This function is able to pass numbers in range 0 to 9.99999 (6 digits)
@@ -179,11 +187,11 @@ end
 function fixedDecimalToColor(f)
     if f > 9.99999 then
         -- error("Number too big to be passed as a fixed-point decimal")
-        return {0}
+        return { 0 }
     elseif f < 0 then
-        return {0}
+        return { 0 }
     end
-    
+
     local f6 = tonumber(string.format("%.5f", 1))
     local i = math.floor(f * 100000)
     return integerToColor(i)
@@ -221,42 +229,43 @@ function DataToColor:CreateFrames(n)
             if type(slot) ~= "number" or slot < 0 or slot >= NUMBER_OF_FRAMES then
                 self:error("Invalid slot value")
             end
-            
+
             if type(col) ~= "table" then
                 self:error("Invalid color value (" .. tostring(col) .. ")")
             end
-            
+
             self.frames[slot + 1]:SetBackdropColor(col[1], col[2], col[3], 1)
         end
+
         -- Number of loops is based on the number of generated frames declared at beginning of script
-        
+
         for i = 1, 46 do
-            MakePixelSquareArr({63 / 255, 0, 63 / 255}, i)
+            MakePixelSquareArr({ 63 / 255, 0, 63 / 255 }, i)
         end
         if not SETUP_SEQUENCE then
             MakePixelSquareArr(integerToColor(0), 0)
             -- The final data square, reserved for additional metadata.
             MakePixelSquareArr(integerToColor(2000001), NUMBER_OF_FRAMES - 1)
             -- Position related variables --
-            MakePixelSquareArr(fixedDecimalToColor(xCoordi), 1) --1 The x-coordinate
-            MakePixelSquareArr(fixedDecimalToColor(yCoordi), 2) --2 The y-coordinate
+            MakePixelSquareArr(fixedDecimalToColor(xCoordi), 1)                       --1 The x-coordinate
+            MakePixelSquareArr(fixedDecimalToColor(yCoordi), 2)                       --2 The y-coordinate
             MakePixelSquareArr(fixedDecimalToColor(DataToColor:GetPlayerFacing()), 3) --3 The direction the player is facing in radians
-            MakePixelSquareArr(integerToColor(self:GetZoneName(0)), 4) -- Get name of first 3 characters of zone
-            MakePixelSquareArr(integerToColor(self:GetZoneName(3)), 5) -- Get name of last 3 characters of zone
+            MakePixelSquareArr(integerToColor(self:GetZoneName(0)), 4)                -- Get name of first 3 characters of zone
+            MakePixelSquareArr(integerToColor(self:GetZoneName(3)), 5)                -- Get name of last 3 characters of zone
             MakePixelSquareArr(fixedDecimalToColor(self:CorpsePosition("x") * 10), 6) -- Returns the x coordinates of corpse
             MakePixelSquareArr(fixedDecimalToColor(self:CorpsePosition("y") * 10), 7) -- Return y coordinates of corpse
             -- Boolean variables --
             MakePixelSquareArr(integerToColor(self:Base2Converter()), 8)
             -- Start combat/NPC related variables --
-            MakePixelSquareArr(integerToColor(self:getHealthMax("player")), 10) --8 Represents maximum amount of health
+            MakePixelSquareArr(integerToColor(self:getHealthMax("player")), 10)     --8 Represents maximum amount of health
             MakePixelSquareArr(integerToColor(self:getHealthCurrent("player")), 11) --9 Represents current amount of health
-            MakePixelSquareArr(integerToColor(self:getManaMax("player")), 12) --10 Represents maximum amount of mana
-            MakePixelSquareArr(integerToColor(self:getManaCurrent("player")), 13) --11 Represents current amount of mana
-            MakePixelSquareArr(integerToColor(self:getPlayerLevel()), 14) --12 Represents character level
-            MakePixelSquareArr(integerToColor(self:isInRange()), 15) -- 15 Represents if target is within 20, 30, 35, or greater than 35 yards
-            MakePixelSquareArr(integerToColor(self:GetTargetName(0)), 16) -- Characters 1-3 of target's name
-            MakePixelSquareArr(integerToColor(self:GetTargetName(3)), 17) -- Characters 4-6 of target's name
-            MakePixelSquareArr(integerToColor(self:getHealthMax("target")), 18) -- Return the maximum amount of health a target can have
+            MakePixelSquareArr(integerToColor(self:getManaMax("player")), 12)       --10 Represents maximum amount of mana
+            MakePixelSquareArr(integerToColor(self:getManaCurrent("player")), 13)   --11 Represents current amount of mana
+            MakePixelSquareArr(integerToColor(self:getPlayerLevel()), 14)           --12 Represents character level
+            MakePixelSquareArr(integerToColor(self:isInRange()), 15)                -- 15 Represents if target is within 20, 30, 35, or greater than 35 yards
+            MakePixelSquareArr(integerToColor(self:GetTargetName(0)), 16)           -- Characters 1-3 of target's name
+            MakePixelSquareArr(integerToColor(self:GetTargetName(3)), 17)           -- Characters 4-6 of target's name
+            MakePixelSquareArr(integerToColor(self:getHealthMax("target")), 18)     -- Return the maximum amount of health a target can have
             MakePixelSquareArr(integerToColor(self:getHealthCurrent("target")), 19) -- Returns the current amount of health the target currently has
             -- Begin Items section --
             -- there are 5 item slots: main backpack and 4 pouches
@@ -302,25 +311,31 @@ function DataToColor:CreateFrames(n)
             MakePixelSquareArr(integerToColor(Modulo(self:getMoneyTotal(), 1000000)), 32) -- 13 Represents amount of money held (in copper)
             MakePixelSquareArr(integerToColor(floor(self:getMoneyTotal() / 1000000)), 33) -- 14 Represents amount of money held (in gold)
             -- Start main action page (page 1)
-            MakePixelSquareArr(integerToColor(self:spellStatus()), 34) -- Has global cooldown active
-            MakePixelSquareArr(integerToColor(self:spellAvailable()), 35) -- Is the spell available to be cast?
-            MakePixelSquareArr(integerToColor(self:notEnoughMana()), 36) -- Do we have enough mana to cast that spell
+            MakePixelSquareArr(integerToColor(self:spellStatus()), 34)                    -- Has global cooldown active
+            MakePixelSquareArr(integerToColor(self:spellAvailable()), 35)                 -- Is the spell available to be cast?
+            MakePixelSquareArr(integerToColor(self:notEnoughMana()), 36)                  -- Do we have enough mana to cast that spell
             -- Number of slots each bag contains, not including our default backpack
-            MakePixelSquareArr(integerToColor(self:bagSlots(1)), 37) -- Bag slot 1
-            MakePixelSquareArr(integerToColor(self:bagSlots(2)), 38) -- Bag slot 2
-            MakePixelSquareArr(integerToColor(self:bagSlots(3)), 39) -- Bag slot 3
-            MakePixelSquareArr(integerToColor(self:bagSlots(4)), 40) -- Bag slot 4
+            MakePixelSquareArr(integerToColor(self:bagSlots(1)), 37)                      -- Bag slot 1
+            MakePixelSquareArr(integerToColor(self:bagSlots(2)), 38)                      -- Bag slot 2
+            MakePixelSquareArr(integerToColor(self:bagSlots(3)), 39)                      -- Bag slot 3
+            MakePixelSquareArr(integerToColor(self:bagSlots(4)), 40)                      -- Bag slot 4
             -- Profession levels:
             -- tracks our skinning level
             MakePixelSquareArr(integerToColor(self:GetProfessionLevel("Skinning")), 41) -- Skinning profession level
             -- tracks our fishing level
-            MakePixelSquareArr(integerToColor(self:GetProfessionLevel("Fishing")), 42) -- Fishing profession level
-            MakePixelSquareArr(integerToColor(self:GetDebuffs("FrostNova")), 43) -- Checks if target is frozen by frost nova debuff
-            MakePixelSquareArr(integerToColor(self:GameTime()), 44) -- Returns time in the game
-            MakePixelSquareArr(integerToColor(self:GetGossipIcons()), 45) -- Returns which gossip icons are on display in dialogue box
-            MakePixelSquareArr(integerToColor(self:PlayerClass()), 46) -- Returns player class as an integer
-            MakePixelSquareArr(integerToColor(self:isUnskinnable()), 47) -- Returns 1 if creature is unskinnable
-            MakePixelSquareArr(integerToColor(self:hearthZoneID()), 48) -- Returns subzone of that is currently bound to hearhtstone
+            MakePixelSquareArr(integerToColor(self:GetProfessionLevel("Fishing")), 42)  -- Fishing profession level
+            MakePixelSquareArr(integerToColor(self:GetDebuffs("FrostNova")), 43)        -- Checks if target is frozen by frost nova debuff
+            MakePixelSquareArr(integerToColor(self:GameTime()), 44)                     -- Returns time in the game
+            MakePixelSquareArr(integerToColor(self:GetGossipIcons()), 45)               -- Returns which gossip icons are on display in dialogue box
+            MakePixelSquareArr(integerToColor(self:PlayerClass()), 46)                  -- Returns player class as an integer
+            MakePixelSquareArr(integerToColor(self:isUnskinnable()), 47)                -- Returns 1 if creature is unskinnable
+            local hearthZoneID = self:hearthZoneID()
+            if hearthZoneID then
+                MakePixelSquareArr(integerToColor(hearthZoneID), 48) -- Returns subzone of that is currently bound to hearhtstone
+            else
+                -- handle the error
+                print("Error: hearthZoneID is nil.")
+            end
             self:HandleEvents()
         end
         if SETUP_SEQUENCE then
@@ -336,12 +351,15 @@ function DataToColor:CreateFrames(n)
     end
     -- Function used to generate a single frame
     local function setFramePixelBackdrop(f)
+        if not f.SetBackdrop then
+            Mixin(f, BackdropTemplateMixin)
+        end
         f:SetBackdrop({
             bgFile = "Interface\\AddOns\\DataToColor\\white.tga",
-            insets = {top = 0, left = 0, bottom = 0, right = 0},
+            insets = { top = 0, left = 0, bottom = 0, right = 0 },
         })
     end
-    
+
     local function genFrame(name, x, y)
         local f = CreateFrame("Frame", name, UIParent)
         f:SetPoint("TOPLEFT", x * (CELL_SIZE + CELL_SPACING), -y * (CELL_SIZE + CELL_SPACING))
@@ -351,18 +369,18 @@ function DataToColor:CreateFrames(n)
         f:SetFrameStrata("DIALOG")
         return f
     end
-    
+
     n = n or 0
-    
+
     local frame = 1 -- try 1
     local frames = {}
-    
+
     -- background frame
     local backgroundframe = genFrame("frame_0", 0, 0)
     backgroundframe:SetHeight(FRAME_ROWS * (CELL_SIZE + CELL_SPACING))
     backgroundframe:SetWidth(floor(n / FRAME_ROWS) * (CELL_SIZE + CELL_SPACING))
     backgroundframe:SetFrameStrata("HIGH")
-    
+
     local windowCheckFrame = CreateFrame("Frame", "frame_windowcheck", UIParent)
     windowCheckFrame:SetPoint("TOPLEFT", 120, -200)
     windowCheckFrame:SetHeight(5)
@@ -370,7 +388,7 @@ function DataToColor:CreateFrames(n)
     windowCheckFrame:SetFrameStrata("LOW")
     setFramePixelBackdrop(windowCheckFrame)
     windowCheckFrame:SetBackdropColor(0.5, 0.1, 0.8, 1)
-    
+
     -- creating a new frame to check for open BOE and BOP windows
     local bindingCheckFrame = CreateFrame("Frame", "frame_bindingcheck", UIParent)
     -- 90 and 200 are the x and y offsets from the default "CENTER" position
@@ -384,15 +402,15 @@ function DataToColor:CreateFrames(n)
     setFramePixelBackdrop(bindingCheckFrame)
     -- sets the rgba color format
     bindingCheckFrame:SetBackdropColor(0.5, 0.1, 0.8, 1)
-    
+
     -- Note: Use for loop based on input to generate "n" number of frames
     for frame = 0, n - 1 do
         local y = Modulo(frame, FRAME_ROWS) -- those are grid coordinates (1,2,3,4 by  1,2,3,4 etc), not pixel coordinates
         local x = floor(frame / FRAME_ROWS)
         -- Put frame information in to an object/array
-        frames[frame + 1] = genFrame("frame_"..tostring(frame), x, y)
+        frames[frame + 1] = genFrame("frame_" .. tostring(frame), x, y)
     end
-    
+
     -- Assign self.frames to frame list generated above
     self.frames = frames
     self.frames[1]:SetScript("OnUpdate", function() UpdateFrameColor(f) end)
@@ -410,12 +428,18 @@ end
 -- Base 2 converter for up to 24 boolean values to a single pixel square.
 function DataToColor:Base2Converter()
     -- 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
-    return self:MakeIndexBase2(self:targetCombatStatus(), 0) + self:MakeIndexBase2(self:GetEnemyStatus(), 1) + self:MakeIndexBase2(self:deadOrAlive(), 2) +
-    self:MakeIndexBase2(self:checkTalentPoints(), 3) + self:MakeIndexBase2(self:needWater(), 4) + self:MakeIndexBase2(self:GetBuffs("Food"), 5) +
-    self:MakeIndexBase2(self:GetBuffs("Frost Armor"), 6) + self:MakeIndexBase2(self:GetBuffs("Arcane Intellect"), 7) + self:MakeIndexBase2(self:GetBuffs("Ice Barrier"), 8) +
-    self:MakeIndexBase2(self:GetInventoryBroken(), 9) + self:MakeIndexBase2(self:IsPlayerFlying(), 10) + self:MakeIndexBase2(self:needFood(), 11) +
-    self:MakeIndexBase2(self:GetBuffs("Evocation"), 12) + self:MakeIndexBase2(self:GetBuffs("Drink"), 13) + self:MakeIndexBase2(self:playerCombatStatus(), 14) +
-    self:MakeIndexBase2(self:IsTargetOfTargetPlayer(), 15) + self:MakeIndexBase2(self:needManaGem(), 16) + self:MakeIndexBase2(self:ProcessExitStatus(), 17)
+    return self:MakeIndexBase2(self:targetCombatStatus(), 0) + self:MakeIndexBase2(self:GetEnemyStatus(), 1) +
+        self:MakeIndexBase2(self:deadOrAlive(), 2) +
+        self:MakeIndexBase2(self:checkTalentPoints(), 3) + self:MakeIndexBase2(self:needWater(), 4) +
+        self:MakeIndexBase2(self:GetBuffs("Food"), 5) +
+        self:MakeIndexBase2(self:GetBuffs("Frost Armor"), 6) + self:MakeIndexBase2(self:GetBuffs("Arcane Intellect"), 7) +
+        self:MakeIndexBase2(self:GetBuffs("Ice Barrier"), 8) +
+        self:MakeIndexBase2(self:GetInventoryBroken(), 9) + self:MakeIndexBase2(self:IsPlayerFlying(), 10) +
+        self:MakeIndexBase2(self:needFood(), 11) +
+        self:MakeIndexBase2(self:GetBuffs("Evocation"), 12) + self:MakeIndexBase2(self:GetBuffs("Drink"), 13) +
+        self:MakeIndexBase2(self:playerCombatStatus(), 14) +
+        self:MakeIndexBase2(self:IsTargetOfTargetPlayer(), 15) + self:MakeIndexBase2(self:needManaGem(), 16) +
+        self:MakeIndexBase2(self:ProcessExitStatus(), 17)
 end
 
 -- Returns bitmask values.
@@ -424,7 +448,8 @@ end
 function DataToColor:MakeIndexBase2(bool, power)
     if bool ~= nil and bool > 0 then
         return math.pow(2, power)
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -436,7 +461,8 @@ function DataToColor:GetTargetName(partition)
         target = DataToColor:StringToASCIIHex(target)
         if partition < 3 then
             return tonumber(string.sub(target, 0, 6))
-        else if target > 999999 then
+        else
+            if target > 999999 then
                 return tonumber(string.sub(target, 7, 12))
             end
         end
@@ -450,6 +476,7 @@ function DataToColor:getHealthMax(unit)
     local health = UnitHealthMax(unit)
     return health
 end
+
 -- Finds axact amount of health player current has
 function DataToColor:getHealthCurrent(unit)
     local health = UnitHealth(unit)
@@ -483,10 +510,10 @@ end
 function DataToColor:isInRange()
     -- Assigns arbitrary value (50) to note the target is not within range
     local range = 50
-    if IsActionInRange(2) then range = 35 end -- Checks Fireball Range, slot 2
+    if IsActionInRange(2) then range = 35 end                                -- Checks Fireball Range, slot 2
     if IsActionInRange(3) and self:getPlayerLevel() < 25 then range = 30 end -- Checks Frostbolt Range, slot 3
-    if IsActionInRange(10) then range = 30 end -- Checks Counterspell Range, slot 11. Useful for when after arctic reach is applied
-    if IsActionInRange(4) then range = 20 end -- Checks Fire Blast Range, slot 4
+    if IsActionInRange(10) then range = 30 end                               -- Checks Counterspell Range, slot 11. Useful for when after arctic reach is applied
+    if IsActionInRange(4) then range = 20 end                                -- Checks Fire Blast Range, slot 4
     return range
 end
 
@@ -495,17 +522,20 @@ end
 function DataToColor:itemName(bag, slot)
     local item
     local itemCount
-    _, itemCount, _, _, _, _, _ = GetContainerItemInfo(bag, slot)
+    _, itemCount, _, _, _, _, _ = C_Container.GetContainerItemInfo(bag, slot)
     -- If no item in the slot, returns nil. We assign this as zero for sake of pixel reading.
-    if GetContainerItemLink(bag, slot) == nil then
+    if C_Container.GetContainerItemLink(bag, slot) == nil then
         item = 0
         -- Formatting to isolate the ID in the ItemLink
-    else _, _, item = string.find(GetContainerItemLink(bag, slot), "(m:%d+)")
+    else
+        _, _, item = string.find(C_Container.GetContainerItemLink(bag, slot), "(m:%d+)")
         item = string.gsub(item, 'm:', '')
     end
-    if item == nil then item = 0
+    if item == nil then
+        item = 0
     end
-    if(itemCount ~= nil and itemCount > 0) then item = item + itemCount * 100000
+    if (itemCount ~= nil and itemCount > 0) then
+        item = item + itemCount * 100000
     end
     -- Sets global variable to current list of items
     items[(bag * 16) + slot] = item
@@ -526,13 +556,16 @@ function DataToColor:equipName(slot)
     local equip
     if GetInventoryItemLink("player", slot) == nil then
         equip = 0
-    else _, _, equip = string.find(GetInventoryItemLink("player", slot), "(m:%d+)")
+    else
+        _, _, equip = string.find(GetInventoryItemLink("player", slot), "(m:%d+)")
         equip = string.gsub(equip, 'm:', '')
     end
-    if equip == nil then equip = 0
+    if equip == nil then
+        equip = 0
     end
     return tonumber(equip)
 end
+
 -- -- Function to tell if a spell is on cooldown and if the specified slot has a spell assigned to it
 -- -- Slot ID information can be found on WoW Wiki. Slots we are using: 1-12 (main action bar), Bottom Right Action Bar maybe(49-60), and  Bottom Left (61-72)
 
@@ -553,6 +586,7 @@ function DataToColor:spellStatus()
     end
     return statusCount
 end
+
 -- Finds if spell is equipped
 function DataToColor:spellAvailable()
     local availability = 0
@@ -593,7 +627,7 @@ end
 
 -- Function to tell how many bag slots we have in each bag
 function DataToColor:bagSlots(bag)
-    bagSlots = GetContainerNumSlots(bag)
+    bagSlots = C_Container.GetContainerNumSlots(bag)
     return bagSlots
 end
 
@@ -602,7 +636,7 @@ function DataToColor:GetProfessionLevel(skill)
     local numskills = GetNumSkillLines();
     for c = 1, numskills do
         local skillname, _, _, skillrank = GetSkillLineInfo(c);
-        if(skillname == skill) then
+        if (skillname == skill) then
             return tonumber(skillrank);
         end
     end
@@ -611,7 +645,8 @@ end
 
 -- Checks target to see if  target has a specified debuff
 function DataToColor:GetDebuffs(debuff)
-    for i = 1, 5 do local db = UnitDebuff("target", i);
+    for i = 1, 5 do
+        local db = UnitDebuff("target", i);
         if db ~= nil then
             if string.find(db, debuff) then
                 return 1
@@ -646,11 +681,11 @@ end
 
 function DataToColor:GetGossipIcons()
     -- Checks if we have options available
-    local option = GetGossipOptions()
+    local option = C_GossipInfo.GetOptions()
     -- Checks if we have an active quest in the gossip window
-    local activeQuest = GetGossipActiveQuests()
+    local activeQuest = C_GossipInfo.GetActiveQuests()
     -- Checks if we have a quest that we can pickup
-    local availableQuest = GetGossipAvailableQuests()
+    local availableQuest = C_GossipInfo.GetAvailableQuests()
     local gossipCode
     -- Code 0 if no gossip options are available
     if option == nil and activeQuest == nil and availableQuest == nil then
@@ -690,7 +725,6 @@ function DataToColor:CorpsePosition(coord)
         else
             return 0
         end
-        
     end
     if coord == "y" then
         if cY ~= nil then
@@ -712,6 +746,7 @@ function DataToColor:PlayerClass()
     end
     return class
 end
+
 -----------------------------------------------------------------
 -- Boolean functions --------------------------------------------
 -- Only put functions here that are part of a boolean sequence --
@@ -725,7 +760,8 @@ function DataToColor:targetCombatStatus()
     if combatStatus then
         return 1
         -- if target is not in combat, return 1 for bitmask
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -753,7 +789,8 @@ end
 function DataToColor:checkTalentPoints()
     if UnitCharacterPoints("player") > 0 then
         return 1
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -790,6 +827,7 @@ function DataToColor:GetInventoryBroken()
     end
     return 0
 end
+
 -- Checks if we are on a taxi
 function DataToColor:IsPlayerFlying()
     local taxiStatus = UnitOnTaxi("player")
@@ -804,7 +842,8 @@ end
 function DataToColor:needFood()
     if GetActionCount(6) < 10 then
         return 1
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -812,7 +851,8 @@ end
 function DataToColor:needWater()
     if GetActionCount(7) < 10 then
         return 1
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -820,7 +860,8 @@ end
 function DataToColor:needManaGem()
     if GetActionCount(67) < 1 then
         return 1
-    else return 0
+    else
+        return 0
     end
 end
 
@@ -839,7 +880,8 @@ function DataToColor:isUnskinnable()
     -- Demons COULD be included in this list, but there are some skinnable demon dogs.
     if creatureType == "Humanoid" or creatureType == "Elemental" or creatureType == "Mechanical" or creatureType == "Totem" then
         return 1
-    else if creatureType ~= nil then
+    else
+        if creatureType ~= nil then
             return 0
         end
     end
@@ -873,7 +915,8 @@ function DataToColor:hearthZoneID()
     end
     if index[hearthzone] ~= nil then
         return index[hearthzone]
-    else self:log(hearthzone .. "is not registered. Please add it to the table in D2C.")
+    else
+        self:log(hearthzone .. "is not registered. Please add it to the table in D2C.")
     end
 end
 
@@ -911,7 +954,8 @@ function DataToColor:HandlePartyInvite()
     -- Declines party invite if configured to decline
     if DATA_CONFIG.DECLINE_PARTY_REQUESTS then
         DeclineGroup()
-    else if DATA_CONFIG.ACCEPT_PARTY_REQUESTS then
+    else
+        if DATA_CONFIG.ACCEPT_PARTY_REQUESTS then
             AcceptGroup()
         end
     end
@@ -938,7 +982,8 @@ function DataToColor:LearnTalents()
                 -- Loops through all of the talents in each individual tab
                 for k = 1, GetNumTalents(j), 1 do
                     -- Grabs API info of a specified talent index
-                    local name, iconPath, tier, column, currentRank, maxRank, isExceptional, meetsPrereq, previewRank, meetsPreviewPrereq = GetTalentInfo(j, k)
+                    local name, iconPath, tier, column, currentRank, maxRank, isExceptional, meetsPrereq, previewRank, meetsPreviewPrereq =
+                        GetTalentInfo(j, k)
                     local tabId, tabName, tabPointsSpent, tabDescription, tabIconTexture = GetTalentTabInfo(j)
                     local _, _, isLearnable = GetTalentPrereqs(j, k)
                     -- DEFAULT_CHAT_FRAME:AddMessage("hello" .. tier)
@@ -999,12 +1044,12 @@ function DataToColor:CheckTrainer()
     if Modulo(iterator, 30) == 1 then
         -- First checks that the trainer gossip window is open
         -- DEFAULT_CHAT_FRAME:AddMessage(GetTrainerServdiceInfo(1))
-        if GetTrainerServiceInfo(1) ~= nil and DATA_CONFIG .AUTO_TRAIN_SPELLS then
+        if GetTrainerServiceInfo(1) ~= nil and DATA_CONFIG.AUTO_TRAIN_SPELLS then
             -- LPCONFIG.AUTO_TRAIN_SPELLS = false
             local allAvailableOptions = GetNumTrainerServices()
             local money = GetMoney()
             local level = UnitLevel("player")
-            
+
             -- Loops through every spell on the list and checks if we
             -- 1) Have the level to train that spell
             -- 2) Have the money want to train that spell
@@ -1028,7 +1073,8 @@ function DataToColor:CheckTrainer()
                             return
                             -- end
                             -- An error messages for the rare case where we don't have enough money for a spell but have the level for it.
-                        else if GetTrainerServiceCost(i) > money then
+                        else
+                            if GetTrainerServiceCost(i) > money then
                             end
                         end
                     end
@@ -1067,4 +1113,3 @@ function DataToColor:ResurrectPlayer()
         end
     end
 end
-
